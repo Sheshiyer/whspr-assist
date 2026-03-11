@@ -1,0 +1,396 @@
+{
+  "title": "WHSPR Assist Quiz",
+  "questions": [
+    {
+      "question": "What is the primary psychological barrier WHSPR Assist seeks to overcome by using a smart glasses form factor instead of a traditional hearing aid?",
+      "answerOptions": [
+        {
+          "text": "The social stigma and vanity resistance associated with medical devices.",
+          "isCorrect": true,
+          "rationale": "Research indicates that 80% of people who need hearing help refuse traditional devices primarily because of how they are perceived by others."
+        },
+        {
+          "text": "The difficulty of managing small batteries in traditional behind-the-ear models.",
+          "isCorrect": false,
+          "rationale": "While physical dexterity is a design consideration, the form factor choice is fundamentally driven by social normalization rather than battery logistics."
+        },
+        {
+          "text": "The high cost of miniaturized medical-grade hearing components.",
+          "isCorrect": false,
+          "rationale": "The brand achieves lower costs through direct distribution and consumer electronics components, but the glasses shape specifically targets adoption barriers."
+        },
+        {
+          "text": "The lack of space for AI camera sensors in standard hearing aid housings.",
+          "isCorrect": false,
+          "rationale": "The camera is a secondary feature; the primary reason for the form factor is the fact that 92.4% of the target audience already wears glasses."
+        }
+      ],
+      "hint": "Consider the core insight that 80% of hearing-impaired Americans refuse traditional treatment."
+    },
+    {
+      "question": "Which specific price point is identified as the 'Super Early Bird' tier for the WHSPR Assist Rx crowdfunding launch?",
+      "answerOptions": [
+        {
+          "text": "$249",
+          "isCorrect": true,
+          "rationale": "This tier is the lowest entry price offered during the campaign to drive immediate urgency and reward early backers."
+        },
+        {
+          "text": "$349",
+          "isCorrect": false,
+          "rationale": "This represents the higher end of the standard retail price range rather than the early campaign discount."
+        },
+        {
+          "text": "$299",
+          "isCorrect": false,
+          "rationale": "This is the standard campaign price once the limited early bird tiers have been exhausted."
+        },
+        {
+          "text": "$140",
+          "isCorrect": false,
+          "rationale": "This figure is closer to the projected wholesale price for B2B clinic partners."
+        }
+      ],
+      "hint": "This value represents a 90-95% reduction compared to traditional hearing aids."
+    },
+    {
+      "question": "The WHSPR Assist brand voice is personified by 'Dr. Maren.' What is her professional background and intended communication style?",
+      "answer": "A 52-year-old optometrist who speaks with warm, jargon-free clinical authority.",
+      "answerOptions": [
+        {
+          "text": "A 52-year-old optometrist who speaks with warm, jargon-free clinical authority.",
+          "isCorrect": true,
+          "rationale": "Dr. Maren is designed to sound like a trusted clinician who recommends solutions rather than selling them."
+        },
+        {
+          "text": "A tech-forward audiologist who focuses on specifications and high-performance metrics.",
+          "isCorrect": false,
+          "rationale": "The brand explicitly avoids tech-bro minimalism and breathless superlatives in favor of caregiver warmth."
+        },
+        {
+          "text": "A 42-year-old caregiver who shares personal stories of family reconnection.",
+          "isCorrect": false,
+          "rationale": "While Sarah Mitchell represents the caregiver persona, Dr. Maren is the clinical voice of the brand identity."
+        },
+        {
+          "text": "A retired mechanical engineer who values technical precision and durability.",
+          "isCorrect": false,
+          "rationale": "This description fits George Mitchell, the primary buyer persona, rather than the brand's speaking voice."
+        }
+      ],
+      "hint": "She is described as a trusted clinician who has known the patient for years."
+    },
+    {
+      "question": "In the WHSPR Assist color palette, which color represents 60% of the visual application and is intended to communicate clinical credibility?",
+      "answerOptions": [
+        {
+          "text": "Trust Navy (#1B365D)",
+          "isCorrect": true,
+          "rationale": "This dominant color anchors the brand in medical-grade authority and serves as the primary background for headers and navigation."
+        },
+        {
+          "text": "Warm Linen (#F5F0E8)",
+          "isCorrect": false,
+          "rationale": "Linen is the secondary color at 30%, used for text backgrounds to provide emotional warmth."
+        },
+        {
+          "text": "Clarity Teal (#2A9D8F)",
+          "isCorrect": false,
+          "rationale": "Teal is the accent color used sparingly at 10% for interactive elements and highlights."
+        },
+        {
+          "text": "Vitality Amber (#E9A825)",
+          "isCorrect": false,
+          "rationale": "Amber is a signal color used only as needed for active indicators and status markers."
+        }
+      ],
+      "hint": "This color is compared to a physician's blazer rather than a tech startup's blue."
+    },
+    {
+      "question": "Which pillar of the WHSPR Assist strategy focuses on the 'Master Emotion' of ensuring nobody can tell the user is wearing a specialized assistive device?",
+      "answerOptions": [
+        {
+          "text": "Dignity-First Design",
+          "isCorrect": true,
+          "rationale": "Dignity is the foundational emotion for the brand, ensuring users feel like themselves rather than 'patients'."
+        },
+        {
+          "text": "Professional Trust Channel",
+          "isCorrect": false,
+          "rationale": "This pillar refers to the distribution strategy through audiologists and optometrists."
+        },
+        {
+          "text": "Radical Affordability",
+          "isCorrect": false,
+          "rationale": "This pillar addresses the financial barrier but does not directly handle the emotional aspect of stigma."
+        },
+        {
+          "text": "Dual-Purpose Innovation",
+          "isCorrect": false,
+          "rationale": "This refers to the combination of hearing and vision features in one frame."
+        }
+      ],
+      "hint": "This principle asks if a design detail respects the wearer or reminds them of their decline."
+    },
+    {
+      "question": "What unique 'convergence' does WHSPR Assist offer that distinguishes it from competitors like Phonak or Ray-Ban Meta?",
+      "answerOptions": [
+        {
+          "text": "The combination of prescription vision, hearing enhancement, and AI in one device.",
+          "isCorrect": true,
+          "rationale": "WHSPR Assist occupies a unique 'category of one' by bundling these three distinct assistive functions."
+        },
+        {
+          "text": "The integration of fall detection sensors and heart rate monitoring.",
+          "isCorrect": false,
+          "rationale": "The documentation notes that the lack of health sensors is actually a current vulnerability compared to brands like Starkey."
+        },
+        {
+          "text": "A proprietary lens system that requires specialized cleaning solutions.",
+          "isCorrect": false,
+          "rationale": "The frames are compatible with any optical lab to avoid proprietary lock-in."
+        },
+        {
+          "text": "Direct integration with major social media platforms for content creation.",
+          "isCorrect": false,
+          "rationale": "The brand explicitly excludes gaming and creator contexts to maintain its focus on assistive independence."
+        }
+      ],
+      "hint": "Consider the three main features that none of the competitors offer together for under $1,000."
+    },
+    {
+      "question": "Who is 'Sarah Mitchell' in the WHSPR Assist audience profile, and what is her role in the purchasing process?",
+      "answerOptions": [
+        {
+          "text": "An adult daughter acting as a caregiver and primary researcher for her aging parent.",
+          "isCorrect": true,
+          "rationale": "Sarah represents the 'Caregiver' persona who often initiates the purchase because she wants a solution her father won't refuse."
+        },
+        {
+          "text": "A clinical audiologist who whitelabels the product for her private practice.",
+          "isCorrect": false,
+          "rationale": "This describes Dr. Priya Sharma, the professional channel persona."
+        },
+        {
+          "text": "The primary end-user who suffers from mild-to-moderate hearing loss.",
+          "isCorrect": false,
+          "rationale": "The primary end-user is personified by George Mitchell."
+        },
+        {
+          "text": "An optometrist who focuses on the aesthetic 'Capsule Collection' of the frames.",
+          "isCorrect": false,
+          "rationale": "This describes Dr. Emily Chen, the whitelabel partner persona."
+        }
+      ],
+      "hint": "She is the one researching solutions at 11 PM for a loved one."
+    },
+    {
+      "question": "Why did the brand choose magnetic 2-pin charging for the WHSPR Assist hardware?",
+      "answerOptions": [
+        {
+          "text": "To accommodate users with reduced dexterity or hand tremors.",
+          "isCorrect": true,
+          "rationale": "Standard ports like USB-C can be difficult for the target demographic to align, leading to frustration and 'dignity erosion'."
+        },
+        {
+          "text": "Because it allows for faster charging than traditional hearing aid batteries.",
+          "isCorrect": false,
+          "rationale": "While charging speed is beneficial, the primary design driver is the ease of use for the target audience."
+        },
+        {
+          "text": "To ensure the device remains completely waterproof for outdoor use.",
+          "isCorrect": false,
+          "rationale": "Magnetic charging can help with sealing, but the documentation highlights user dexterity as the critical reason."
+        },
+        {
+          "text": "It was the only standard supported by the JL7018F chipset.",
+          "isCorrect": false,
+          "rationale": "The chipset handles the processing, but the physical charging interface was a specific design choice for the target persona."
+        }
+      ],
+      "hint": "Think about the common physical challenges faced by the 65+ demographic."
+    },
+    {
+      "question": "What does the 'Gentle Clarity' theme metaphorically represent in the visual design system?",
+      "answerOptions": [
+        {
+          "text": "A well-lit audiologist\u2019s office where technology feels like a friend.",
+          "isCorrect": true,
+          "rationale": "This metaphor guides decisions to ensure the brand feels professional but not cold or intimidating."
+        },
+        {
+          "text": "A high-tech laboratory with sterile white surfaces and blue neon lights.",
+          "isCorrect": false,
+          "rationale": "The brand explicitly avoids 'sterile clinical white' and 'tech-bro minimalism' as failure modes."
+        },
+        {
+          "text": "A cozy, dimly lit library with old leather-bound books and warm shadows.",
+          "isCorrect": false,
+          "rationale": "While warmth is important, the brand also requires 'clarity' and a medical-grade aesthetic, which implies a cleaner, brighter environment."
+        },
+        {
+          "text": "A bustling family kitchen where sounds are amplified for maximum energy.",
+          "isCorrect": false,
+          "rationale": "The 'Gentle' part of the theme suggests a more calmed, focused environment rather than a chaotic one."
+        }
+      ],
+      "hint": "The theme seeks to balance clinical credibility with domestic warmth."
+    },
+    {
+      "question": "Which market channel is prioritized for the 'Enterprise' launch of WHSPR Assist?",
+      "answerOptions": [
+        {
+          "text": "B2B partnerships with audiologists, optometrists, and healthcare clinics.",
+          "isCorrect": true,
+          "rationale": "The professional trust channel is the primary go-to-market strategy because provider recommendations are powerful purchase triggers for seniors."
+        },
+        {
+          "text": "Direct-to-consumer sales through social media ads and Amazon listings.",
+          "isCorrect": false,
+          "rationale": "While B2C is part of the crowdfunding phase, the canonical configuration emphasizes enterprise partnerships over retail."
+        },
+        {
+          "text": "Big-box retail distribution through stores like Costco and Walmart.",
+          "isCorrect": false,
+          "rationale": "Costco is listed as a competitor that WHSPR Assist helps independent clinics differentiate themselves against."
+        },
+        {
+          "text": "Global licensing agreements with smartphone manufacturers.",
+          "isCorrect": false,
+          "rationale": "The brand focuses on clinical and lifestyle channels rather than pure tech licensing."
+        }
+      ],
+      "hint": "Every asset must serve a dual audience: the patient and the healthcare professional."
+    },
+    {
+      "question": "What is the primary role of the 32MP camera system in the 'Assist Rx' product models?",
+      "answerOptions": [
+        {
+          "text": "Powering AI features like text-to-speech for reading labels and menus.",
+          "isCorrect": true,
+          "rationale": "The camera's high resolution is utilized for vision assistance tasks, helping users maintain independence."
+        },
+        {
+          "text": "Recording high-definition social media content and vlogs.",
+          "isCorrect": false,
+          "rationale": "The brand avoids 'creator context' to focus purely on assistive technology for dignity and connection."
+        },
+        {
+          "text": "Scanning barcodes for instant price comparisons while shopping.",
+          "isCorrect": false,
+          "rationale": "The primary focus is vision assistance (like reading menus or prescription bottles) rather than consumer utility."
+        },
+        {
+          "text": "Allowing healthcare providers to perform remote eye exams.",
+          "isCorrect": false,
+          "rationale": "The camera provides assistance to the user; it is not currently used for remote clinical diagnostics."
+        }
+      ],
+      "hint": "This feature helps George Mitchell read 'prescription labels' independently."
+    },
+    {
+      "question": "The primary persona, George Mitchell, is described as having 'Technology Anxiety.' How does the product address this?",
+      "answerOptions": [
+        {
+          "text": "By using simple temple touch controls and a large-text companion app.",
+          "isCorrect": true,
+          "rationale": "Simplifying the UI/UX ensures that the technology feels manageable rather than overwhelming for someone who isn't a 'tech enthusiast'."
+        },
+        {
+          "text": "By including a comprehensive 200-page technical manual.",
+          "isCorrect": false,
+          "rationale": "George values simplicity; a large-text quick-start guide is provided instead of a complex manual."
+        },
+        {
+          "text": "By requiring a mandatory 2-hour training session at a clinic.",
+          "isCorrect": false,
+          "rationale": "While the clinical channel helps with fitting, the product is designed to be intuitive enough for daily use without heavy training."
+        },
+        {
+          "text": "By automating all settings so the user never has to interact with an app.",
+          "isCorrect": false,
+          "rationale": "The app is used for calibration and tracking, but its design is tailored for ease of use (e.g., large text)."
+        }
+      ],
+      "hint": "Think about the design choices that make the technology 'disappear' into the glasses."
+    },
+    {
+      "question": "In the WHSPR Assist Capsule Collection, which model is specifically designed to be the lightest in the lineup?",
+      "answerOptions": [
+        {
+          "text": "Assist Rx Refined (V03-T8)",
+          "isCorrect": true,
+          "rationale": "The Refined model uses a semi-rimless design with a metal lower wire to minimize weight."
+        },
+        {
+          "text": "Assist Rx Classic (V03-T5)",
+          "isCorrect": false,
+          "rationale": "The Classic is a full-frame square model, which is sturdier but heavier than the semi-rimless version."
+        },
+        {
+          "text": "Assist Rx Active (V06-T)",
+          "isCorrect": false,
+          "rationale": "The Active model features a larger battery (260mAh) and a rubberized grip, making it more robust rather than lighter."
+        },
+        {
+          "text": "Assist Rx Heritage (V03-T6)",
+          "isCorrect": false,
+          "rationale": "The Heritage is a round-frame retro style that is full-rimmed, similar to the Classic."
+        }
+      ],
+      "hint": "This model features a semi-rimless frame with a metal lower wire."
+    },
+    {
+      "question": "Which font family is used for headers in the WHSPR Assist typography system to communicate authority and tradition?",
+      "answerOptions": [
+        {
+          "text": "Source Serif 4",
+          "isCorrect": true,
+          "rationale": "Serif fonts are associated with newspapers and clinical journals, which the target demographic trusts more than sans-serif 'tech' fonts."
+        },
+        {
+          "text": "Source Sans 3",
+          "isCorrect": false,
+          "rationale": "This font is used for body text and UI labels because of its high legibility."
+        },
+        {
+          "text": "IBM Plex Mono",
+          "isCorrect": false,
+          "rationale": "The monospaced font is reserved for technical data and clinical measurement readouts."
+        },
+        {
+          "text": "Helvetica Neue",
+          "isCorrect": false,
+          "rationale": "The brand uses the Source and IBM Plex families; Helvetica is not part of the specified typography system."
+        }
+      ],
+      "hint": "The brand prefers serifs for headers to avoid a 'tech-startup' look."
+    },
+    {
+      "question": "According to the market data, what is the average delay between someone becoming a candidate for hearing aids and actually adopting them?",
+      "answerOptions": [
+        {
+          "text": "8.9 years",
+          "isCorrect": true,
+          "rationale": "This nearly decade-long delay represents the 'massive untapped population' WHSPR Assist aims to serve by offering a stigma-free alternative."
+        },
+        {
+          "text": "2.5 years",
+          "isCorrect": false,
+          "rationale": "This is much shorter than the actual market average, which is prolonged by stigma and cost barriers."
+        },
+        {
+          "text": "15 years",
+          "isCorrect": false,
+          "rationale": "While some individuals may wait this long, the average documented delay is just under nine years."
+        },
+        {
+          "text": "1 year",
+          "isCorrect": false,
+          "rationale": "The adoption rate is only 20%, indicating that most people wait significantly longer than one year."
+        }
+      ],
+      "hint": "This delay is described as causing relationships to strain and cognitive decline risks to increase."
+    }
+  ]
+}

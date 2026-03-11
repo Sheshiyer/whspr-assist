@@ -1,0 +1,261 @@
+{
+  "title": "Brand Cards",
+  "cards": [
+    {
+      "front": "What is the primary brand archetype for WHSPR Assist?",
+      "back": "The Caregiver."
+    },
+    {
+      "front": "What is the official tagline of WHSPR Assist?",
+      "back": "Hear more. See more. Live more."
+    },
+    {
+      "front": "The WHSPR Assist brand voice is personified by a 52-year-old optometrist named _____.",
+      "back": "Dr. Maren"
+    },
+    {
+      "front": "What is the primary go-to-market launch channel for WHSPR Assist?",
+      "back": "Enterprise (B2B healthcare professional partnerships)."
+    },
+    {
+      "front": "What is the core metaphor governing the brand's design decisions?",
+      "back": "A well-lit audiologist's office where technology feels like a trusted friend."
+    },
+    {
+      "front": "Name the three distinct tonal registers used by WHSPR Assist.",
+      "back": "Compassionate Companion, Peer Professional, and Trusted Advisor."
+    },
+    {
+      "front": "Which tone mode is used specifically for clinical peer-to-peer authority?",
+      "back": "Peer Professional"
+    },
+    {
+      "front": "What hex code represents the brand's primary color, Trust Navy?",
+      "back": "#1B365D"
+    },
+    {
+      "front": "The color Warm Linen (#F5F0E8) occupies what percentage of the brand's color distribution model?",
+      "back": "30%"
+    },
+    {
+      "front": "What is the specific functional application of the color Clarity Teal (#2A9D8F)?",
+      "back": "CTAs, hearing feature highlights, and interactive elements."
+    },
+    {
+      "front": "What color is designated for active indicators and prescription badges?",
+      "back": "Vitality Amber (#E9A825)"
+    },
+    {
+      "front": "Which font family is assigned for headers to communicate authority?",
+      "back": "Source Serif 4"
+    },
+    {
+      "front": "Source Sans 3 is the primary font family for what type of content?",
+      "back": "Body text, UI labels, and general reading content."
+    },
+    {
+      "front": "For what specific purpose is the font family IBM Plex Mono reserved?",
+      "back": "Technical specifications, hearing profile data, and clinical readouts."
+    },
+    {
+      "front": "What hypoallergenic material is used for the WHSPR Assist frame construction?",
+      "back": "TR (thermoplastic rubber)"
+    },
+    {
+      "front": "What charging solution was chosen to assist users with reduced dexterity?",
+      "back": "Magnetic 2-pin cable"
+    },
+    {
+      "front": "What are the camera sensor specifications in the WHSPR Assist dual-camera system?",
+      "back": "8MP standard and 32MP AI-enhanced sensors."
+    },
+    {
+      "front": "Name the 68-year-old retired mechanical engineer who serves as the primary buyer persona.",
+      "back": "George Mitchell"
+    },
+    {
+      "front": "What is the single most important market insight regarding hearing aid adoption?",
+      "back": "80% of hearing-impaired Americans refuse hearing aids primarily due to stigma."
+    },
+    {
+      "front": "What is the estimated Total Addressable Market (TAM) for WHSPR Assist?",
+      "back": "$14.7 billion"
+    },
+    {
+      "front": "What is the retail price range for a pair of WHSPR Assist smart glasses?",
+      "back": "$249 to $349"
+    },
+    {
+      "front": "How much more expensive are traditional hearing aids compared to WHSPR Assist?",
+      "back": "3 to 17 times more expensive."
+    },
+    {
+      "front": "Which model in the capsule collection is described as a semi-rimless, lightweight frame?",
+      "back": "Assist Rx Refined (V03-T8)"
+    },
+    {
+      "front": "What are the key features of the Assist Rx Active (V06-T) model?",
+      "back": "Sport square wrap-around frame, 260mAh battery, and rubberized grip."
+    },
+    {
+      "front": "What items are included in the canonical five-item product flatlay?",
+      "back": "Glasses, magnetic charging cable, iPhone app, prescription card, and carrying pouch."
+    },
+    {
+      "front": "What camera and lens configuration is mandated for brand photography?",
+      "back": "Canon R5 with a 50mm lens at f/2.8."
+    },
+    {
+      "front": "Describe the visual components of the WHSPR Assist brand sigil.",
+      "back": "A sound wave arc cradling a lens element."
+    },
+    {
+      "front": "What is the average delay between hearing aid candidacy and actual adoption?",
+      "back": "8.9 years"
+    },
+    {
+      "front": "Which persona represents the adult daughter and caregiver influencer?",
+      "back": "Sarah Mitchell"
+    },
+    {
+      "front": "What role does Dr. Priya Sharma play in the WHSPR Assist ecosystem?",
+      "back": "Audiologist and B2B primary buyer."
+    },
+    {
+      "front": "What is the primary differentiator of WHSPR Assist compared to other smart glasses like Ray-Ban Meta?",
+      "back": "It is prescription-ready and includes clinical-grade hearing enhancement."
+    },
+    {
+      "front": "What is the WHSPR Assist hero headline?",
+      "back": "The glasses your audiologist wishes existed ten years ago."
+    },
+    {
+      "front": "What chipset platform powers the WHSPR Assist smart glasses?",
+      "back": "JL7018F"
+    },
+    {
+      "front": "What video recording resolution and frame rate does the camera system support?",
+      "back": "1200p at 30 frames per second."
+    },
+    {
+      "front": "What is the estimated battery life for WHSPR Assist Rx?",
+      "back": "4 to 5 hours"
+    },
+    {
+      "front": "Which Bluetooth standard does WHSPR Assist Rx utilize?",
+      "back": "Bluetooth 5.4"
+    },
+    {
+      "front": "What does the audio system's ANC and ENC stand for?",
+      "back": "Active Noise Cancellation and Environmental Noise Cancellation."
+    },
+    {
+      "front": "What is the name of the crowdfunding launch campaign?",
+      "back": "CLARITY CALL"
+    },
+    {
+      "front": "What is the price for the Super Early Bird tier during the crowdfunding campaign?",
+      "back": "$249"
+    },
+    {
+      "front": "How much does the Caregiver Bundle cost and what does it include?",
+      "back": "$499 for two pairs of WHSPR Assist Rx."
+    },
+    {
+      "front": "What is the function of the soundbytes SB-A through SB-J?",
+      "back": "They are modular brand messages for hooks, ads, and social media."
+    },
+    {
+      "front": "Which AI model is used for precision brand assets like the seal and icon sets?",
+      "back": "Flux 2 Pro"
+    },
+    {
+      "front": "Which AI model is used for generating lifestyle photography and narrative sequences?",
+      "back": "NanoBananaPro"
+    },
+    {
+      "front": "In the visual asset catalog, what does the seed 'v1' represent?",
+      "back": "Seed 42"
+    },
+    {
+      "front": "What is the primary objective of the 'A Morning with WHSPR Assist' narrative sequence?",
+      "back": "To show the product integrated into a daily independent living routine."
+    },
+    {
+      "front": "What specific medical insurance eligibility applies to WHSPR Assist?",
+      "back": "HSA/FSA eligibility."
+    },
+    {
+      "front": "What is the target reading level for WHSPR Assist campaign copy?",
+      "back": "Grade 6\u20137"
+    },
+    {
+      "front": "Which persona represents the clinic administrator focused on profit margins?",
+      "back": "Marcus Williams"
+    },
+    {
+      "front": "The 'Gentle Clarity' illustration style is inspired by which two reference aesthetics?",
+      "back": "Apple Health app and Phonak marketing."
+    },
+    {
+      "front": "What is the master emotion in the WHSPR Assist feelings hierarchy?",
+      "back": "Dignity"
+    },
+    {
+      "front": "What is the wholesale price range for WHSPR Assist units?",
+      "back": "$120 to $140"
+    },
+    {
+      "front": "What is the specific SKU for the Assist Rx Classic frame model?",
+      "back": "V03-T5"
+    },
+    {
+      "front": "What is the name of the voice assistant used in the smart glasses?",
+      "back": "Hey Cyan"
+    },
+    {
+      "front": "According to the visual guidelines, what is the minimum age for primary photography subjects?",
+      "back": "50 years old"
+    },
+    {
+      "front": "What is the background color used for the 'Hear More' campaign poster engine (9A-01)?",
+      "back": "Trust Navy (#1B365D)"
+    },
+    {
+      "front": "What material is the 'Care Kit' charging cradle made from to emphasize warmth?",
+      "back": "Warm maple"
+    },
+    {
+      "front": "Which social platform is designated as the primary visual storytelling channel?",
+      "back": "Instagram"
+    },
+    {
+      "front": "What is the percentage ratio for 'Value Education' in the social content strategy?",
+      "back": "40%"
+    },
+    {
+      "front": "How many frame styles are included in the capsule collection?",
+      "back": "Four"
+    },
+    {
+      "front": "What is the specific purpose of the 'Provider Portal' for audiologists?",
+      "back": "Tracking patient engagement and managing follow-ups."
+    },
+    {
+      "front": "In the outreach strategy, what is the percentage of budget allocated to micro-influencers?",
+      "back": "40%"
+    },
+    {
+      "front": "What is the standard response time for standard (Level 1) customer reviews?",
+      "back": "24 to 48 hours"
+    },
+    {
+      "front": "Which FDA regulation created the market category for WHSPR Assist?",
+      "back": "The August 2022 OTC Hearing Aid Rule."
+    },
+    {
+      "front": "What term should be avoided in the review response playbook when referring to users?",
+      "back": "Elderly (or Senior)"
+    }
+  ]
+}

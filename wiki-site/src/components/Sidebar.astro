@@ -11,12 +11,13 @@ const allDocs = await getCollection('docs');
 
 // Define section order and metadata
 const sectionMeta: Record<string, { icon: string; order: number }> = {
-  Home:      { icon: '\u{1F3E0}', order: 0 },
-  Product:   { icon: '\u{1F4E6}', order: 1 },
-  Brand:     { icon: '\u{1F3A8}', order: 2 },
-  Audience:  { icon: '\u{1F465}', order: 3 },
-  Marketing: { icon: '\u{1F4E3}', order: 4 },
-  Partners:  { icon: '\u{1F91D}', order: 5 },
+  Home:         { icon: '\u{1F3E0}', order: 0 },
+  Product:      { icon: '\u{1F4E6}', order: 1 },
+  Brand:        { icon: '\u{1F3A8}', order: 2 },
+  Audience:     { icon: '\u{1F465}', order: 3 },
+  Marketing:    { icon: '\u{1F4E3}', order: 4 },
+  Partners:     { icon: '\u{1F91D}', order: 5 },
+  deliverables: { icon: '\u{1F4E5}', order: 6 },
 };
 
 // Group docs by section and sort

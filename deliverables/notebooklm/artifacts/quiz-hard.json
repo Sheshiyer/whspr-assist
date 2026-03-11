@@ -1,0 +1,317 @@
+{
+  "title": "Strategy Quiz",
+  "questions": [
+    {
+      "question": "In the Customer-Based Brand Equity (CBBE) model for WHSPR Assist, which specific emotion is identified as the 'master emotion' that drives consumer adoption?",
+      "answerOptions": [
+        {
+          "text": "Dignity",
+          "isCorrect": true,
+          "rationale": "Dignity is the foundational emotional driver, as the product is designed so that nobody can tell the wearer is using a hearing-enhancement device."
+        },
+        {
+          "text": "Excitement",
+          "isCorrect": false,
+          "rationale": "While the technology is advanced, the brand avoids 'tech-bro' excitement in favor of calm, clinical trust."
+        },
+        {
+          "text": "Nostalgia",
+          "isCorrect": false,
+          "rationale": "The brand uses a 'Heritage' frame style, but the core driver is current functional independence rather than looking backward."
+        },
+        {
+          "text": "Safety",
+          "isCorrect": false,
+          "rationale": "Safety is an emotional driver, particularly for caregivers, but it ranks lower than the wearer's need for personal dignity."
+        }
+      ],
+      "hint": "Consider the primary psychological barrier that prevents adults from wearing traditional hearing aids."
+    },
+    {
+      "question": "What is the projected wholesale price range for WHSPR Assist units sold through the B2B clinic channel?",
+      "answerOptions": [
+        {
+          "text": "$120\u2013$140",
+          "isCorrect": true,
+          "rationale": "This wholesale range allows for a healthy clinic margin while keeping the retail price under $350."
+        },
+        {
+          "text": "$249\u2013$349",
+          "isCorrect": false,
+          "rationale": "This range represents the target retail price for consumers, not the wholesale cost for providers."
+        },
+        {
+          "text": "$50\u2013$75",
+          "isCorrect": false,
+          "rationale": "While the BOM might be lower, the wholesale price is set higher to protect brand value and cover development costs."
+        },
+        {
+          "text": "$180\u2013$210",
+          "isCorrect": false,
+          "rationale": "A wholesale price this high would squeeze clinic margins too tightly given the sub-$350 retail ceiling."
+        }
+      ],
+      "hint": "This value represents roughly $40\\%$ to $50\\%$ of the final retail price."
+    },
+    {
+      "question": "According to the competitive analysis, what is the primary structural 'arbitrage' WHSPR Assist uses to bypass the 8.9-year adoption delay for hearing help?",
+      "answerOptions": [
+        {
+          "text": "Stigma Arbitrage",
+          "isCorrect": true,
+          "rationale": "By embedding hearing technology in glasses, which are socially normalized, the brand bypasses the stigma attached to hearing aids."
+        },
+        {
+          "text": "Regulatory Arbitrage",
+          "isCorrect": false,
+          "rationale": "While the OTC ruling is a tailwind, the core strategy relies on the social perception of the form factor."
+        },
+        {
+          "text": "Feature Arbitrage",
+          "isCorrect": false,
+          "rationale": "Adding a camera is a differentiator, but the primary reason for adoption is the removal of the medical device 'look'."
+        },
+        {
+          "text": "Insurance Arbitrage",
+          "isCorrect": false,
+          "rationale": "The product actually lacks an insurance pathway, making this a vulnerability rather than an arbitrage advantage."
+        }
+      ],
+      "hint": "Think about the difference in how society views corrective lenses versus hearing devices."
+    },
+    {
+      "question": "In the context of distribution economics, how does the professional fitting model impact the return rates compared to the Over-The-Counter (OTC) market?",
+      "answerOptions": [
+        {
+          "text": "It reduces return rates from $35\\%\u201350\\%$ down to $6\\%\u201310\\%$",
+          "isCorrect": true,
+          "rationale": "Professional calibration and fitting significantly increase user satisfaction and persistence compared to unguided OTC purchases."
+        },
+        {
+          "text": "It eliminates returns entirely through custom lens fitting",
+          "isCorrect": false,
+          "rationale": "While custom lenses make the frames personal, some level of return is inevitable in assistive technology."
+        },
+        {
+          "text": "It increases the return rate due to higher consumer expectations",
+          "isCorrect": false,
+          "rationale": "Professional involvement actually stabilizes expectations and provides the support needed to successfully adapt to the device."
+        },
+        {
+          "text": "It has a negligible effect as the core technology remains consumer-grade",
+          "isCorrect": false,
+          "rationale": "The source material explicitly identifies the professional channel as a key strategy for reducing high OTC return rates."
+        }
+      ],
+      "hint": "The clinical channel is described not just as distribution, but as a retention strategy."
+    },
+    {
+      "question": "Which specific technical specification of WHSPR Assist is noted as being superior to all current traditional hearing aid competitors?",
+      "answerOptions": [
+        {
+          "text": "Bluetooth 5.4 connectivity",
+          "isCorrect": true,
+          "rationale": "WHSPR Assist utilizes the newest Bluetooth standard, exceeding even premium competitors like Phonak who use version 5.3."
+        },
+        {
+          "text": "Battery life",
+          "isCorrect": false,
+          "rationale": "Battery life is actually a noted vulnerability, as traditional hearing aids can last over 30 hours."
+        },
+        {
+          "text": "On-chip Neural Network processing",
+          "isCorrect": false,
+          "rationale": "Phonak's Infinio line is cited as having deep neural network processing, which is a strength WHSPR does not claim to match."
+        },
+        {
+          "text": "Dust and water resistance ratings",
+          "isCorrect": false,
+          "rationale": "While durable, the device does not claim the medical-grade ingress protection found in high-end hearing aids."
+        }
+      ],
+      "hint": "Focus on the wireless communication standard mentioned in the performance section of the CBBE."
+    },
+    {
+      "question": "What is the primary objective of the 'Whitelabel' program for audiologists and optometrists?",
+      "answerOptions": [
+        {
+          "text": "To create high switching costs and brand differentiation for the clinic",
+          "isCorrect": true,
+          "rationale": "Branding the product to the clinic integrates it into their workflow and builds proprietary patient loyalty."
+        },
+        {
+          "text": "To allow clinics to hide the WHSPR brand and charge luxury prices",
+          "isCorrect": false,
+          "rationale": "The strategy is about clinic differentiation, not deceptive pricing, as the retail ceiling is still capped for accessibility."
+        },
+        {
+          "text": "To reduce the manufacturer's liability for device performance",
+          "isCorrect": false,
+          "rationale": "Whitelabeling is a marketing and retention strategy and does not shift core technical liability."
+        },
+        {
+          "text": "To bypass FDA requirements for over-the-counter hearing devices",
+          "isCorrect": false,
+          "rationale": "Regulatory compliance is required regardless of the branding on the frame."
+        }
+      ],
+      "hint": "Think about how a local business defends itself against big-box retailers like Costco."
+    },
+    {
+      "question": "How does WHSPR Assist address the 'Financial Prudence' objection from personas like George Mitchell?",
+      "answerOptions": [
+        {
+          "text": "By framing the cost as less than a typical hearing aid insurance copay",
+          "isCorrect": true,
+          "rationale": "At $249\u2013$349, the price is positioned as an affordable 'no-brainer' compared to the high out-of-pocket costs of traditionals."
+        },
+        {
+          "text": "By offering a $10$-year financing plan through the clinic portal",
+          "isCorrect": false,
+          "rationale": "The strategy relies on low upfront cost rather than long-term debt, which would trigger 'fixed income' anxiety."
+        },
+        {
+          "text": "By guaranteeing that the device will never become obsolete",
+          "isCorrect": false,
+          "rationale": "The brand actually acknowledges that at this price point, frequent and affordable upgrades are a benefit."
+        },
+        {
+          "text": "By providing a buy-back program for older glasses",
+          "isCorrect": false,
+          "rationale": "The source material does not mention a trade-in or buy-back program as part of the core value proposition."
+        }
+      ],
+      "hint": "The strategy compares the device's total cost to the partial costs of more expensive alternatives."
+    },
+    {
+      "question": "In the CBBE Salience category, what is identified as the 'Primary Mental Trigger' for the target audience?",
+      "answerOptions": [
+        {
+          "text": "'I need hearing help but do not want hearing aids.'",
+          "isCorrect": true,
+          "rationale": "This trigger captures the specific psychological whitespace between acknowledging a deficit and rejecting the standard solution."
+        },
+        {
+          "text": "'I want to record my life with a hands-free camera.'",
+          "isCorrect": false,
+          "rationale": "This is a 'tech-bro' or 'creator' trigger, which the brand explicitly avoids in its marketing."
+        },
+        {
+          "text": "'My current glasses are out of style.'",
+          "isCorrect": false,
+          "rationale": "The brand is positioned as a functional assistive device, not a fashion-first accessory."
+        },
+        {
+          "text": "'I am looking for the cheapest possible hearing amplifier.'",
+          "isCorrect": false,
+          "rationale": "The brand distinguishes itself from 'cheap amplifiers' by emphasizing clinical quality and professional fitting."
+        }
+      ],
+      "hint": "This trigger reflects the tension between a functional need and a social refusal."
+    },
+    {
+      "question": "The 'Caregiver Bundle' pricing tier ($499) specifically targets which of Sarah Mitchell's pain points?",
+      "answerOptions": [
+        {
+          "text": "Relief from the constant worry about both parents' social isolation",
+          "isCorrect": true,
+          "rationale": "The bundle allows Sarah to provide a solution for both parents at a price lower than a single medical copay."
+        },
+        {
+          "text": "The need for a secondary backup device for her father",
+          "isCorrect": false,
+          "rationale": "The marketing frames the bundle for 'Mom and Dad' rather than as redundant units for a single user."
+        },
+        {
+          "text": "Her desire to use the technology herself to stay connected to them",
+          "isCorrect": false,
+          "rationale": "Sarah is a decision influencer but not the primary user; the second pair is intended for another aging adult."
+        },
+        {
+          "text": "The high shipping costs of individual orders",
+          "isCorrect": false,
+          "rationale": "While logically true, the emotional hook is about comprehensive family care and the 'Caregiver' persona's motivation."
+        }
+      ],
+      "hint": "Look at the pricing tiers and who the 'Sarah' persona is buying for."
+    },
+    {
+      "question": "Which of the following is a 'Territory Statement' that defines the brand's unique market position?",
+      "answerOptions": [
+        {
+          "text": "The only smart glasses combining prescription hearing enhancement AND vision assistance, sold through healthcare professionals.",
+          "isCorrect": true,
+          "rationale": "This statement covers the dual-purpose convergence and the professional trust channel, separating it from Meta and OTC hearing aids."
+        },
+        {
+          "text": "The world's most affordable AI-powered glasses for the elderly.",
+          "isCorrect": false,
+          "rationale": "The brand explicitly avoids the term 'elderly' in its identity, preferring 'adults $55$\u2013$75$' or 'seekers'."
+        },
+        {
+          "text": "A clinical-grade replacement for high-end hearing aids at $1/10$th the cost.",
+          "isCorrect": false,
+          "rationale": "The brand is careful to state it is *not* a medical-grade replacement for severe loss, but a bridge for mild-to-moderate loss."
+        },
+        {
+          "text": "The ultimate hands-free device for the modern, tech-savvy retiree.",
+          "isCorrect": false,
+          "rationale": "This phrasing leans too far into the 'tech-bro' aesthetic that the brand config specifically excludes."
+        }
+      ],
+      "hint": "The territory statement must include the three pillars: hearing, vision, and the clinical channel."
+    },
+    {
+      "question": "How does the WHSPR Assist positioning framework address the 'Slippery Slope' fear (the idea that assistive devices signal the end of independence)?",
+      "answerOptions": [
+        {
+          "text": "By using a 'Dignity-First' design that makes the technology 'invisible' within a normal accessory.",
+          "isCorrect": true,
+          "rationale": "Because the device is 'just glasses,' it doesn't trigger the mental progression from hearing aid to walker to assisted living."
+        },
+        {
+          "text": "By including fitness and heart rate trackers to show the user is still healthy.",
+          "isCorrect": false,
+          "rationale": "The source material identifies 'feature overwhelm' from fitness tracking as a common complaint in competitors like Starkey."
+        },
+        {
+          "text": "By emphasizing the 'Active' model for sports and outdoor use.",
+          "isCorrect": false,
+          "rationale": "While the Active model exists, the primary solution to the fear is the normalization of the form factor itself."
+        },
+        {
+          "text": "By marketing through AARP to normalize the aging process.",
+          "isCorrect": false,
+          "rationale": "While AARP is a channel, the 'Slippery Slope' fear is handled by the product's design, not just its ad placement."
+        }
+      ],
+      "hint": "Independence is maintained when the tool used doesn't remind the user of their 'decline'."
+    },
+    {
+      "question": "What strategic purpose does the 'Provider Portal' serve within the B2B distribution model?",
+      "answerOptions": [
+        {
+          "text": "It enables patient engagement tracking and follow-up scheduling for clinics.",
+          "isCorrect": true,
+          "rationale": "The portal provides a business tool for clinics to manage their WHSPR patients, increasing the value of the partnership."
+        },
+        {
+          "text": "It allows patients to bypass the clinic and order lenses directly from WHSPR.",
+          "isCorrect": false,
+          "rationale": "The portal is designed to keep the clinic at the center of the relationship, not to circumvent it."
+        },
+        {
+          "text": "It is a portal for insurance companies to verify medical necessity.",
+          "isCorrect": false,
+          "rationale": "WHSPR Assist currently does not have an insurance pathway, so this is not a function of the portal."
+        },
+        {
+          "text": "It serves as a social network for WHSPR users to share hearing profiles.",
+          "isCorrect": false,
+          "rationale": "The portal is a professional B2B tool for providers, not a consumer social feature."
+        }
+      ],
+      "hint": "Consider the business needs of an audiologist or clinic administrator like Marcus Williams."
+    }
+  ]
+}
