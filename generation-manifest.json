@@ -1,0 +1,232 @@
+{
+  "brand": "WHSPR Assist",
+  "depth_level": "comprehensive",
+  "budget_tier": "standard",
+  "launch_channel": "enterprise",
+  "mode": "domain-aware",
+  "domain_tags": [
+    "app",
+    "dtc",
+    "enterprise",
+    "physical-product",
+    "lifestyle",
+    "web",
+    "brand-system",
+    "premium",
+    "mobile"
+  ],
+  "total_assets": 27,
+  "total_api_calls": 53,
+  "estimated_cost_usd": 3.42,
+  "assets": [
+    {
+      "id": "2A",
+      "name": "Brand Kit Bento Grid",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "2B",
+      "name": "Brand Seal",
+      "model": "flux-2-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.1
+    },
+    {
+      "id": "2C",
+      "name": "Logo Emboss",
+      "model": "flux-2-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.1
+    },
+    {
+      "id": "APP-ICON",
+      "name": "App Icon",
+      "model": "flux-2-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.1
+    },
+    {
+      "id": "3A",
+      "name": "Capsule Collection",
+      "model": "flux-2-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.1
+    },
+    {
+      "id": "3B",
+      "name": "Hero Product",
+      "model": "flux-2-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.1
+    },
+    {
+      "id": "APP-SCREENSHOT",
+      "name": "App Store Screenshot",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "3C",
+      "name": "Essence Vial",
+      "model": "flux-2-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.1
+    },
+    {
+      "id": "PITCH-HERO",
+      "name": "Pitch Deck Hero Slide",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "8A",
+      "name": "Seeker Poster",
+      "model": "nano-banana-pro",
+      "seeds": 3,
+      "calls": 3,
+      "est_cost": 0.24
+    },
+    {
+      "id": "IG-STORY",
+      "name": "Instagram Story Template",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "4A",
+      "name": "Catalog Layout",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "OG-IMAGE",
+      "name": "Open Graph Image",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "4B",
+      "name": "Flatlay",
+      "model": "flux-2-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.1
+    },
+    {
+      "id": "TWITTER-HEADER",
+      "name": "Twitter/X Header Banner",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "5B",
+      "name": "Campaign Grid",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "5A",
+      "name": "Heritage Engraving",
+      "model": "recraft-v3",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.08
+    },
+    {
+      "id": "5C",
+      "name": "Art Panel",
+      "model": "recraft-v3",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.08
+    },
+    {
+      "id": "7A",
+      "name": "Contact Sheet",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "EMAIL-HERO",
+      "name": "Email Header Hero",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "9A-01",
+      "model": "nano-banana-pro",
+      "seeds": 1,
+      "calls": 1,
+      "est_cost": 0.08
+    },
+    {
+      "id": "9A-02",
+      "model": "nano-banana-pro",
+      "seeds": 1,
+      "calls": 1,
+      "est_cost": 0.08
+    },
+    {
+      "id": "10A",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "10B",
+      "model": "nano-banana-pro",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.16
+    },
+    {
+      "id": "5D-1",
+      "model": "recraft-v3",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.08
+    },
+    {
+      "id": "5D-2",
+      "model": "recraft-v3",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.08
+    },
+    {
+      "id": "5D-3",
+      "model": "recraft-v3",
+      "seeds": 2,
+      "calls": 2,
+      "est_cost": 0.08
+    }
+  ]
+}

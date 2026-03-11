@@ -1,0 +1,379 @@
+execution_context:
+  budget_tier: standard
+  launch_channel: enterprise
+  maturity_stage: pre-launch
+  depth_level: comprehensive
+  tone: trust-focused
+  quality_bar: premium
+brand:
+  name: WHSPR Assist
+  tagline: Hear more. See more. Live more.
+  archetype: The Caregiver
+  voice: Dr. Maren -- a 52-year-old optometrist who speaks like a trusted clinician
+    talking to someone she has known for years. Direct, warm, free of jargon, never
+    condescending. She recommends; she does not sell.
+  domain: Assistive Wearable Technology / Hearing & Vision Enhancement
+  domain_tags:
+  - app
+  - dtc
+  - enterprise
+  - physical-product
+  - lifestyle
+  - web
+  - brand-system
+  - premium
+  - mobile
+  tone: Compassionate Companion (B2C, warmth 8, formality 4, AARP Magazine register),
+    Peer Professional (B2B, authority 8, formality 7, clinical peer-to-peer), Trusted
+    Advisor (Caregiver, warmth 7, empathetic, solution-oriented)
+theme:
+  name: Gentle Clarity
+  description: Warm, clean medical-grade aesthetic. Soft whites and calming blues
+    meet tactile warmth. Clinical credibility without sterile coldness. Accessible
+    without patronizing.
+  metaphor: A well-lit audiologist's office where the technology feels like a trusted
+    friend, not a medical device
+  mood_keywords:
+  - gentle-clarity
+  - warm-clinical
+  - dignified-aging
+  - accessible-premium
+  - trusted-technology
+  - compassionate-design
+  - clean-confidence
+  - soft-authority
+  - family-warmth
+  - independence
+palette:
+  primary:
+    name: Trust Navy
+    hex: '#1B365D'
+    role: 60% backgrounds, clinical credibility
+  secondary:
+    name: Warm Linen
+    hex: '#F5F0E8'
+    role: 30% text backgrounds, approachable warmth
+  accent:
+    name: Clarity Teal
+    hex: '#2A9D8F'
+    role: 10% CTAs, hearing feature highlights
+  support:
+    name: Soft Silver
+    hex: '#B0BEC5'
+    role: Borders, device imagery backgrounds
+  signal:
+    name: Vitality Amber
+    hex: '#E9A825'
+    role: Active indicators, prescription badges
+typography:
+  header:
+    font: Source Serif 4
+    weights:
+    - Regular
+    - SemiBold
+    display_weight: SemiBold
+    emphasis_weight: Regular
+    case: sentence case
+  body:
+    font: Source Sans 3
+    weights:
+    - Regular
+    - SemiBold
+  data:
+    font: IBM Plex Mono
+    weights:
+    - Regular
+materials:
+- TR (thermoplastic rubber) frame
+- soft-touch temple tips with gesture controls
+- hypoallergenic silicone nose pads
+- prescription-ready lens system
+- magnetic 2-pin charging cable
+- microfiber cleaning cloth
+- carrying pouch
+- large-print quick-start guide
+- dual open-ear directional speakers
+- dual-microphone ANC/ENC system
+photography:
+  style: Warm natural light, authentic elderly subjects, active independence, family
+    connection, clinical credibility
+  environment: Well-lit home, garden, clinic waiting room, family gathering, morning
+    routine
+  constraint: Always show dignity and independence. No infantilizing poses. No 'old
+    person struggling.' Show confidence and capability. Minimum age 50 for primary
+    subjects.
+  camera: Canon R5, 50mm, f/2.8, warm natural color grade
+illustration:
+  style: Clean medical-grade line illustrations with warm teal accents. Accessible,
+    clear, high contrast.
+  references: Apple Health app aesthetic meets Phonak marketing clarity. Warm, not
+    cold. Informational, not decorative.
+sigil:
+  description: Sound wave arc cradling a lens element — hearing and vision unified
+  components:
+  - Sound wave arc (hearing)
+  - Lens circle (vision)
+  - Connection dot (app + clinic ecosystem)
+audience:
+  persona_name: George Mitchell
+  aesthetic_affinity: clinical-warm, premium medical device, Apple Health aesthetic
+  aspirational_brands: Phonak, ReSound, Apple, Warby Parker
+  emotional_register: clinical trust, patient advocacy, professional pride, compassionate
+    care
+  aspiration:
+  - Hear grandchildren clearly at family dinners
+  - Read prescription labels and menus independently
+  - Participate fully in social activities without pretending
+  - Maintain dignity and independence as he ages
+  - Stay connected with family without being a burden
+  pain_points:
+  - Hearing aid stigma prevents adoption despite acknowledged need
+  - 'Cost barrier: $3,200 hearing aids on a fixed income feels irresponsible'
+  - Generic OTC amplifiers make everything louder, including noise
+  - Social withdrawal from restaurants, church, golf, and family events
+  - Family tension from repeated 'What?' and avoidance behavior
+  - Pretending to hear erodes dignity and self-image
+  - Technology anxiety around complicated devices and apps
+  - Fear that assistive devices signal loss of independence
+competitive_context:
+  avoid_visual_patterns: patronizing elderly imagery, budget hearing aid plastic aesthetic,
+    tech-bro minimalism, sterile clinical white
+  differentiate_from:
+  - Only product combining Rx vision + hearing enhancement + AI at any price under
+    $1,000
+  - 3-17x price advantage over all hearing and vision assistive competitors
+  - 'Zero-stigma glasses form factor bypasses #1 adoption barrier'
+  - B2B whitelabel creates clinic-level switching costs no competitor offers
+  - Professional fitting reduces OTC-level return rates from 35-50% down to 6-10%
+  - Dual-purpose product captures vision-hearing convergence whitespace
+  - Provider Portal enables patient engagement tracking and upsell pipeline
+  - Prescription-ready frames work with any optical lab -- no proprietary lens system
+  occupy_territory: The only smart glasses combining prescription hearing enhancement
+    AND vision assistance, sold through healthcare professionals
+positioning:
+  statement: For adults 55-75 with mild-to-moderate hearing loss who already wear
+    glasses, WHSPR Assist is the only prescription-ready smart glasses that combine
+    hearing enhancement, AI vision assistance, and everyday eyewear in a single frame
+    -- for under $350 -- delivering dignity, clarity, and connection without the stigma
+    or cost of traditional hearing aids.
+  hero_headline: The glasses your audiologist wishes existed ten years ago.
+  identity_pillars:
+  - Clinical-grade hearing enhancement in everyday eyewear
+  - Prescription-ready vision correction built in
+  - Trusted delivery through your healthcare provider
+  tagline: Hear more. See more. Live more.
+  pillars:
+  - 'Zero-Stigma Form Factor: Looks like the glasses you already wear, not a medical
+    device'
+  - 'Radical Affordability: $249-$349 vs $3,200+ hearing aids (90-95% cost reduction)'
+  - 'Professional Trust Channel: Prescribed by audiologists and optometrists, not
+    sold by websites'
+  - 'Dual-Purpose Innovation: Hearing enhancement + AI vision assistance in one frame'
+  - 'Dignity-First Design: Enhancement framing, never deficit framing; capability,
+    never compensation'
+products:
+  hero:
+    name: WHSPR Assist Rx
+    description: Prescription hearing-enhancement smart glasses with vision correction,
+      AI-powered camera system, open-ear audio with ANC/ENC, and companion health
+      app
+    physical_form: Refined TR thermoplastic smart glasses with discreet dual cameras,
+      open-ear speakers, and temple touch controls, displayed on warm clinical surface
+      with soft-focus family photo in background
+  capsule_lineup:
+  - name: Assist Rx Classic (V03-T5)
+    description: Full-frame square prescription-ready smart glasses in matte black
+      TR construction, dual cameras, open-ear hearing enhancement with ANC/ENC, anti-blue
+      light or tinted lens options, displayed on frosted glass surface beside warm
+      maple charging area
+  - name: Assist Rx Heritage (V03-T6)
+    description: Round-frame retro prescription-ready smart glasses in matte black
+      TR construction, dual cameras, open-ear hearing enhancement, anti-blue light
+      or tinted lens options, resting on cotton linen beside audiologist prescription
+      card
+  - name: Assist Rx Refined (V03-T8)
+    description: Semi-rimless prescription-ready smart glasses with metal lower wire
+      in matte black TR construction, dual cameras, the lightest model in the lineup,
+      anti-blue light or clear lens options, displayed on natural stone surface beside
+      leather carrying pouch
+  - name: Assist Rx Active (V06-T)
+    description: Sport square wrap-around smart glasses with 260mAh extended battery
+      and 4GB storage, rubberized grip temples, sport-tinted or polarized lens options
+      in white or black frame, designed for active seniors
+  essence:
+    name: Care Kit
+    container: Magnetic charging cable in warm maple organizer with integrated cleaning
+      cloth compartment
+    size: compact travel-ready
+  flatlay_objects:
+    count: 5
+    items:
+    - glasses on warm surface beside magnetic charging cable
+    - companion app on large-text iPhone showing hearing profile
+    - prescription card from audiologist with WHSPR branding
+    - large-print quick-start guide with teal accent illustrations
+    - soft carrying pouch with debossed WHSPR logo
+  category: assistive wearable technology
+aesthetic:
+  hero_object_type: warm clinical product photography
+  hero_surface: frosted glass with warm maple accent
+  seal_material: Brushed titanium
+  seal_geometry: clean rounded rectangle with subtle sound-wave motif
+  logo_treatment: debossed on warm linen
+  logo_substrate: debossed on warm linen stock or brushed titanium
+  panel_structure: Clean clinical panels with warm natural light and soft shadows
+  icon_line_style: Clean medical-grade line art with teal accent
+  poster_artifact: refined assistive device in warm setting
+  poster_filament: warm ambient light
+  poster_border: clean clinical border with rounded corners
+  quality_reference: Apple Health + Phonak marketing quality
+  engraving_style: clean medical illustration
+  seeker_inner_detail: sound wave patterns meeting vision correction lines
+  sequence_type: daily life independence narrative
+  sequence_constraint: warm authentic elderly moments
+negative_prompt: 'patronizing elderly imagery, walker/wheelchair unless relevant,
+  isolation/sadness,
+
+  sterile white clinical, cold fluorescent lighting, generic stock elderly,
+
+  tech-bro aesthetic, young model wearing product, gaming/creator context,
+
+  anime, cartoon, pixel art, low poly, vaporwave, glitch art,
+
+  hearing aid stigma imagery, disability-focused framing,
+
+  chrome excess, neon, cyberpunk, synthwave
+
+  '
+generation:
+  output_dir: generated
+  seeds:
+  - 42
+  - 137
+  resolution: 2K
+  output_format: png
+  env_file: ~/.claude/.env
+  reference_overrides: {}
+  product_reference_images:
+  - product-images/AI Camera Glasses Specification.pdf-image-035.png
+  - product-images/AI Camera Glasses Specification.pdf-image-106.jpg
+  - product-images/AI Camera Glasses Specification.pdf-image-050.jpg
+prompts:
+  brand_identity:
+  - bento_grid
+  - seal
+  - logo_emboss
+  products:
+  - capsule_collection
+  - hero_book
+  - essence_vial
+  photography:
+  - catalog_layout
+  - flatlay
+  illustration:
+    types:
+    - heritage_engraving
+    - campaign_grid
+    - art_panel
+    icon_generation_model: flux
+    icon_groups:
+    - name: Hearing Features
+      icons:
+      - name: Sound Enhancement
+        description: Sound wave being amplified through glasses temple
+      - name: Noise Filtering
+        description: Cluttered sound waves filtered into clean single wave
+      - name: Conversation Focus
+        description: Two people talking with directional audio focus cone
+      - name: Volume Control
+        description: Sliding dial with ear symbol and comfort indicator
+    - name: Vision Features
+      icons:
+      - name: Prescription Ready
+        description: Lens with Rx symbol and checkmark
+      - name: Reading Assist
+        description: Book or menu with magnification indicator
+      - name: Low Light Enhancement
+        description: Eye with brightness boost indicator
+      - name: Text Recognition
+        description: Camera capturing text with readout bubble
+    - name: Healthcare Integration
+      icons:
+      - name: Clinic Portal
+        description: Building icon with connected device symbol
+      - name: Hearing Profile
+        description: Audiogram chart within app screen
+      - name: Insurance Ready
+        description: Shield with dollar sign and medical cross
+      - name: Whitelabel Partner
+        description: Glasses with interchangeable brand badge
+  narrative:
+    types:
+    - contact_sheet
+  posters:
+    types:
+    - seeker_poster
+    engines:
+    - id: 9A-01
+      name: Hearing Clarity
+      engine_name: HEAR MORE
+      tagline: Conversations come back to life
+      object: WHSPR Assist Rx glasses on warm maple cradle beside family dinner setting,
+        soft candlelight, warm conversation atmosphere
+      material_a: titanium
+      material_b: maple
+      bg_color: Trust Navy
+      bg_hex: '#1B365D'
+    - id: 9A-02
+      name: Vision Independence
+      engine_name: SEE MORE
+      tagline: Read the menu. Read the road signs. Read life.
+      object: WHSPR Assist Rx glasses resting on open book with warm reading light,
+        soft linen surface, morning natural light
+      material_a: acetate
+      material_b: cotton linen
+      bg_color: Warm Linen
+      bg_hex: '#F5F0E8'
+    sequences:
+    - id: 10A
+      key: morning_routine
+      title: A Morning with WHSPR Assist
+      panels: 1.Hand reaching for glasses on warm maple charging cradle 2.Putting
+        on glasses as hearing enhancement activates with subtle teal glow 3.Reading
+        morning newspaper with vision assist magnification 4.Conversation at breakfast
+        table with family, directional audio focus 5.Walking outside into garden with
+        ambient sound enhancement 6.Meeting friend at neighborhood cafe with clear
+        speech focus 7.Checking companion app hearing profile on large-text iPhone
+        8.Adjusting volume with temple touch control 9.Smiling at grandchild running
+        toward them in warm natural light
+    - id: 10B
+      key: clinic_experience
+      title: The Clinic Journey
+      panels: 1.Patient arriving at warm well-lit audiologist clinic 2.Audiologist
+        showing WHSPR Assist frame options on clinical display 3.Hearing profile calibration
+        with audiogram on screen 4.Patient trying on Assist Rx Classic frames with
+        professional guidance 5.Walking out of clinic wearing new glasses with confident
+        posture 6.First outdoor moment, birdsong and street sounds clarified 7.Companion
+        app on phone showing personalized hearing data and next appointment 8.Family
+        gathering with clear conversation, no more asking to repeat 9.Follow-up appointment
+        with audiologist reviewing usage analytics
+  extended:
+    prompt_8a: >
+      {brand_name} "The Seeker" persona portrait. George Mitchell, 68,
+      wearing WHSPR Assist Rx prescription smart glasses in warm morning light.
+      COMPOSITION: Three-quarter portrait, George in his garden doorway.
+      He faces camera with quiet confidence, smart glasses clearly visible --
+      refined TR thermoplastic frames that look like normal glasses.
+      One hand holds a coffee cup, warm natural posture.
+      BACKGROUND: Soft-focus family home interior transitioning to garden.
+      Morning golden hour light streams in. Depth of field isolates George.
+      DETAILS: Warm natural color grade. Linen shirt, casual but dignified.
+      Glasses catch light naturally -- subtle {accent_name} ({accent_hex}) glow
+      on temple touch controls. No sci-fi overlay. No skeleton. No blueprint.
+      TONE: Dignified independence. A capable adult with advanced eyewear.
+      Not a patient. Not elderly-struggling. Not a medical device ad.
+      COLOR: {color_directive}. Warm natural light dominant.
+      {primary_name} ({primary_hex}) in clothing. {secondary_name} ({secondary_hex}) highlights.
+      Typography: "THE SEEKER" in {header_font} {header_display_weight},
+      {support_name} ({support_hex}).
+      Camera: {photo_camera}. {audience_aesthetic}.{detail_suffix}

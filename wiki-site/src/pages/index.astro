@@ -1,0 +1,74 @@
+---
+import DocsLayout from '../layouts/DocsLayout.astro';
+
+const sections = [
+  {
+    icon: '\u{1F4E6}',
+    title: 'Product',
+    desc: 'Overview, features, and technical specifications',
+    href: `${import.meta.env.BASE_URL}/docs/product/overview`,
+  },
+  {
+    icon: '\u{1F3A8}',
+    title: 'Brand',
+    desc: 'Voice, visual identity, and asset gallery',
+    href: `${import.meta.env.BASE_URL}/docs/brand/voice-and-tone`,
+  },
+  {
+    icon: '\u{1F465}',
+    title: 'Audience',
+    desc: 'Buyer personas, competitors, and market validation',
+    href: `${import.meta.env.BASE_URL}/docs/audience/primary-persona`,
+  },
+  {
+    icon: '\u{1F4E3}',
+    title: 'Marketing',
+    desc: 'Campaign copy, emails, social content, video, and ads',
+    href: `${import.meta.env.BASE_URL}/docs/marketing/campaign-copy`,
+  },
+  {
+    icon: '\u{1F91D}',
+    title: 'Partners',
+    desc: 'B2B whitelabel program and partnership details',
+    href: `${import.meta.env.BASE_URL}/docs/partners/b2b-whitelabel`,
+  },
+  {
+    icon: '\u{1F680}',
+    title: 'Quick Start',
+    desc: 'Get oriented fast with the rapid quickstart guide',
+    href: `${import.meta.env.BASE_URL}/docs/quickstart`,
+  },
+];
+---
+
+<DocsLayout title="WHSPR Assist Brand Wiki" description="Central hub for all brand documentation" currentSlug="__landing__">
+  <div class="landing-hero">
+    <h1 class="landing-hero-title">WHSPR Assist</h1>
+    <p class="landing-hero-tagline">Hear more. See more. Live more.</p>
+    <p class="landing-hero-desc">
+      The single source of truth for product information, brand guidelines,
+      audience research, marketing assets, and partner documentation.
+    </p>
+    <img
+      class="landing-hero-image"
+      src={`${import.meta.env.BASE_URL}/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png`}
+      alt="WHSPR Assist — Smart hearing and vision enhancement"
+      loading="eager"
+    />
+  </div>
+
+  <h2 style="text-align:center; margin-bottom: 0.5rem;">Explore the Wiki</h2>
+  <p style="text-align:center; color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">
+    Jump into any section to find what you need.
+  </p>
+
+  <div class="landing-sections">
+    {sections.map((s) => (
+      <a href={s.href} class="landing-section-card">
+        <span class="landing-section-card-icon">{s.icon}</span>
+        <div class="landing-section-card-title">{s.title}</div>
+        <div class="landing-section-card-desc">{s.desc}</div>
+      </a>
+    ))}
+  </div>
+</DocsLayout>

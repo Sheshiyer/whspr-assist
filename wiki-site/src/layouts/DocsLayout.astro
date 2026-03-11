@@ -1,0 +1,47 @@
+---
+import Header from '../components/Header.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  currentSlug?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="generator" content={Astro.generator} />
+  <meta name="description" content={description || 'WHSPR Assist — Hear more. See more. Live more.'} />
+  <meta name="theme-color" content="#1B365D" />
+  <title>{title} — WHSPR Assist</title>
+  <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}/favicon.svg`} />
+  <script is:inline>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (t) {
+        document.documentElement.setAttribute('data-theme', t);
+      } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <Header />
+  <Sidebar />
+
+  <main class="main-content">
+    <slot />
+  </main>
+
+  <Footer />
+</body>
+</html>
