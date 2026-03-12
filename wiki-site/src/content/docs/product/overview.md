@@ -9,7 +9,7 @@ order: 1
 
 > *Hear more. See more. Live more.*
 
-![WHSPR Assist Rx](/whspr-assist/images/3B-hero-book-flux2pro-v1.png)
+![WHSPR Assist Rx](/images/3B-hero-book-flux2pro-v1.png)
 
 ---
 
@@ -81,7 +81,7 @@ WHSPR Assist Rx ships in four frame styles, each designed for a different lifest
 
 All frames use **TR thermoplastic construction** — lightweight, flexible, hypoallergenic, and compatible with any optical lab for prescription lens fitting.
 
-![Capsule Collection](/whspr-assist/images/3A-capsule-collection-flux2pro-v1.png)
+![Capsule Collection](/images/3A-capsule-collection-flux2pro-v1.png)
 
 ---
 

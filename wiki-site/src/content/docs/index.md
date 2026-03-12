@@ -11,7 +11,7 @@ order: 0
 
 Welcome to the WHSPR Assist brand knowledge base — the single source of truth for product information, brand guidelines, audience research, marketing assets, and partner documentation. This wiki is maintained by the WHSPR Assist team and serves as the authoritative reference for anyone working with the brand.
 
-![WHSPR Assist Hero](/whspr-assist/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png)
+![WHSPR Assist Hero](/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png)
 
 ---
 

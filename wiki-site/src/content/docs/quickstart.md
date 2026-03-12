@@ -19,7 +19,7 @@ WHSPR Assist Rx is the **first prescription-ready smart glasses** that combine h
 
 It was built for the **80% of Americans with hearing loss who refuse traditional hearing aids** — because those options cost too much, look too medical, and require too much compromise.
 
-![Product Overview](/whspr-assist/images/4B-flatlay-flux2pro-v1.png)
+![Product Overview](/images/4B-flatlay-flux2pro-v1.png)
 
 ### The One-Liner
 
@@ -113,7 +113,7 @@ WHSPR Assist creates a **new category below hearing aids** — where the 80% of 
 | V03-T8 | Assist Rx Refined | Semi-rimless | V03 |
 | V06-T | Assist Rx Active | Sport wrap-around | V06 |
 
-![Frame Collection](/whspr-assist/images/3A-capsule-collection-flux2pro-v1.png)
+![Frame Collection](/images/3A-capsule-collection-flux2pro-v1.png)
 
 ---
 

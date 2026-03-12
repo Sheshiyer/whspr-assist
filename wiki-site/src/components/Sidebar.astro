@@ -42,9 +42,9 @@ const sortedSections = [...sections.entries()]
 
 function getDocHref(docId: string): string {
   if (docId === 'index') {
-    return `${import.meta.env.BASE_URL}/docs/`;
+    return `/docs/`;
   }
-  return `${import.meta.env.BASE_URL}/docs/${docId}`;
+  return `/docs/${docId}`;
 }
 
 function isActive(docId: string, current: string): boolean {

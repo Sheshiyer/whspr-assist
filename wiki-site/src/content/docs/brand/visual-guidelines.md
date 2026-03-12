@@ -12,7 +12,7 @@ order: 2
 **Theme:** Gentle Clarity
 **Archetype:** The Caregiver
 
-![Brand Kit](/whspr-assist/images/2A-brand-kit-bento-nanobananapro-v1.png)
+![Brand Kit](/images/2A-brand-kit-bento-nanobananapro-v1.png)
 
 ---
 
@@ -109,7 +109,7 @@ The visual identity bridges the gap between sterile medical-device aesthetics an
 | Accent | `#2A9D8F` |
 | Signal | `#E9A825` |
 
-![Brand Seal](/whspr-assist/images/2B-brand-seal-flux2pro-v1.png)
+![Brand Seal](/images/2B-brand-seal-flux2pro-v1.png)
 
 ---
 
@@ -217,7 +217,7 @@ The visual identity bridges the gap between sterile medical-device aesthetics an
 - **Detail:** Close-ups of frame construction, charging mechanism, temple design
 - **Flat lay:** Product with accessories on warm surface, overhead angle
 
-![Logo Emboss](/whspr-assist/images/2C-logo-emboss-flux2pro-v1.png)
+![Logo Emboss](/images/2C-logo-emboss-flux2pro-v1.png)
 
 ---
 

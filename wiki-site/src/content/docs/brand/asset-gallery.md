@@ -11,7 +11,7 @@ order: 3
 
 This gallery contains all **54 AI-generated visual assets** produced for WHSPR Assist. Assets are organized by category. Each asset was generated in multiple variants (v1, v137, v256) using different AI models and seed values for selection flexibility.
 
-**Asset location:** `generated/` directory (relative path from docs: `/whspr-assist/images/`)
+**Asset location:** `generated/` directory (relative path from docs: `/images/`)
 
 ---
 
@@ -23,8 +23,8 @@ Brand kit overview in bento-grid layout showing logo, colors, typography, and ke
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/2A-brand-kit-bento-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/2A-brand-kit-bento-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/2A-brand-kit-bento-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/2A-brand-kit-bento-nanobananapro-v137.png) | NanoBananaPro |
 
 ### 2B — Brand Seal
 
@@ -32,8 +32,8 @@ Circular brand seal / badge mark for trust signaling and certification use.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/2B-brand-seal-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/2B-brand-seal-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/2B-brand-seal-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/2B-brand-seal-flux2pro-v137.png) | Flux2Pro |
 
 ### 2C — Logo Emboss
 
@@ -41,8 +41,8 @@ Embossed logo treatment for packaging, cases, and physical brand applications.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/2C-logo-emboss-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/2C-logo-emboss-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/2C-logo-emboss-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/2C-logo-emboss-flux2pro-v137.png) | Flux2Pro |
 
 ---
 
@@ -54,8 +54,8 @@ All four frame styles displayed together — Classic, Heritage, Refined, Active.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/3A-capsule-collection-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/3A-capsule-collection-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/3A-capsule-collection-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/3A-capsule-collection-flux2pro-v137.png) | Flux2Pro |
 
 ### 3B — Hero Book
 
@@ -63,8 +63,8 @@ Product hero shot with editorial book/lifestyle context.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/3B-hero-book-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/3B-hero-book-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/3B-hero-book-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/3B-hero-book-flux2pro-v137.png) | Flux2Pro |
 
 ### 3C — Essence Vial
 
@@ -72,8 +72,8 @@ Abstract product essence visualization — premium feel, brand texture.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/3C-essence-vial-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/3C-essence-vial-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/3C-essence-vial-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/3C-essence-vial-flux2pro-v137.png) | Flux2Pro |
 
 ---
 
@@ -85,8 +85,8 @@ Product catalog page layout showing frames with specifications.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/4A-catalog-layout-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/4A-catalog-layout-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/4A-catalog-layout-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/4A-catalog-layout-nanobananapro-v137.png) | NanoBananaPro |
 
 ### 4B — Flat Lay
 
@@ -94,8 +94,8 @@ Overhead product flat lay with accessories on warm surface.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/4B-flatlay-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/4B-flatlay-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/4B-flatlay-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/4B-flatlay-flux2pro-v137.png) | Flux2Pro |
 
 ---
 
@@ -107,10 +107,10 @@ Heritage-style engraved illustration for editorial and packaging use.
 
 | Variant | File | Model | Format |
 |---------|------|-------|--------|
-| v1 | ![](/whspr-assist/images/5A-heritage-engraving-recraft-v1.png) | Recraft | PNG |
-| v1 | [WebP](/whspr-assist/images/5A-heritage-engraving-recraft-v1.webp) | Recraft | WebP |
-| v137 | ![](/whspr-assist/images/5A-heritage-engraving-recraft-v137.png) | Recraft | PNG |
-| v137 | [WebP](/whspr-assist/images/5A-heritage-engraving-recraft-v137.webp) | Recraft | WebP |
+| v1 | ![](/images/5A-heritage-engraving-recraft-v1.png) | Recraft | PNG |
+| v1 | [WebP](/images/5A-heritage-engraving-recraft-v1.webp) | Recraft | WebP |
+| v137 | ![](/images/5A-heritage-engraving-recraft-v137.png) | Recraft | PNG |
+| v137 | [WebP](/images/5A-heritage-engraving-recraft-v137.webp) | Recraft | WebP |
 
 ### 5B — Campaign Grid
 
@@ -118,8 +118,8 @@ Multi-panel campaign grid layout for social media and advertising.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/5B-campaign-grid-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/5B-campaign-grid-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/5B-campaign-grid-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/5B-campaign-grid-nanobananapro-v137.png) | NanoBananaPro |
 
 ### 5C — Art Panel
 
@@ -127,10 +127,10 @@ Artistic panel illustration for editorial and brand storytelling.
 
 | Variant | File | Model | Format |
 |---------|------|-------|--------|
-| v1 | ![](/whspr-assist/images/5C-art-panel-recraft-v1.png) | Recraft | PNG |
-| v1 | [WebP](/whspr-assist/images/5C-art-panel-recraft-v1.webp) | Recraft | WebP |
-| v137 | ![](/whspr-assist/images/5C-art-panel-recraft-v137.png) | Recraft | PNG |
-| v137 | [WebP](/whspr-assist/images/5C-art-panel-recraft-v137.webp) | Recraft | WebP |
+| v1 | ![](/images/5C-art-panel-recraft-v1.png) | Recraft | PNG |
+| v1 | [WebP](/images/5C-art-panel-recraft-v1.webp) | Recraft | WebP |
+| v137 | ![](/images/5C-art-panel-recraft-v137.png) | Recraft | PNG |
+| v137 | [WebP](/images/5C-art-panel-recraft-v137.webp) | Recraft | WebP |
 
 ---
 
@@ -142,8 +142,8 @@ Icon set illustrating hearing enhancement capabilities.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/5D-1-hearing-features-icons-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/5D-1-hearing-features-icons-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/5D-1-hearing-features-icons-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/5D-1-hearing-features-icons-flux2pro-v137.png) | Flux2Pro |
 
 ### 5D-2 — Vision Features Icons
 
@@ -151,9 +151,9 @@ Icon set illustrating AI vision assistance capabilities.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 (Flux) | ![](/whspr-assist/images/5D-2-vision-features-icons-flux2pro-v1.png) | Flux2Pro |
-| v137 (Flux) | ![](/whspr-assist/images/5D-2-vision-features-icons-flux2pro-v137.png) | Flux2Pro |
-| v1 (Recraft) | ![](/whspr-assist/images/5D-2-vision-features-icons-recraft-v1.png) | Recraft |
+| v1 (Flux) | ![](/images/5D-2-vision-features-icons-flux2pro-v1.png) | Flux2Pro |
+| v137 (Flux) | ![](/images/5D-2-vision-features-icons-flux2pro-v137.png) | Flux2Pro |
+| v1 (Recraft) | ![](/images/5D-2-vision-features-icons-recraft-v1.png) | Recraft |
 
 ### 5D-3 — Healthcare Integration Icons
 
@@ -161,8 +161,8 @@ Icon set illustrating clinical and healthcare integration features.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/5D-3-healthcare-integration-icons-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/5D-3-healthcare-integration-icons-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/5D-3-healthcare-integration-icons-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/5D-3-healthcare-integration-icons-flux2pro-v137.png) | Flux2Pro |
 
 ---
 
@@ -174,8 +174,8 @@ Model/product contact sheet for production and review use.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/7A-contact-sheet-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/7A-contact-sheet-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/7A-contact-sheet-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/7A-contact-sheet-nanobananapro-v137.png) | NanoBananaPro |
 
 ---
 
@@ -187,9 +187,9 @@ Campaign poster — "Seeker" archetype, aspirational positioning.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/8A-seeker-poster-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/8A-seeker-poster-nanobananapro-v137.png) | NanoBananaPro |
-| v256 | ![](/whspr-assist/images/8A-seeker-poster-nanobananapro-v256.png) | NanoBananaPro |
+| v1 | ![](/images/8A-seeker-poster-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/8A-seeker-poster-nanobananapro-v137.png) | NanoBananaPro |
+| v256 | ![](/images/8A-seeker-poster-nanobananapro-v256.png) | NanoBananaPro |
 
 ### 9A-01 — Hearing Clarity Poster
 
@@ -197,7 +197,7 @@ Feature-focused poster highlighting hearing enhancement capability.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/9A-01-hearing-clarity-poster-nanobananapro-v1.png) | NanoBananaPro |
+| v1 | ![](/images/9A-01-hearing-clarity-poster-nanobananapro-v1.png) | NanoBananaPro |
 
 ### 9A-02 — Vision Independence Poster
 
@@ -205,7 +205,7 @@ Feature-focused poster highlighting AI vision assistance capability.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/9A-02-vision-independence-poster-nanobananapro-v1.png) | NanoBananaPro |
+| v1 | ![](/images/9A-02-vision-independence-poster-nanobananapro-v1.png) | NanoBananaPro |
 
 ---
 
@@ -217,8 +217,8 @@ Lifestyle scene — morning routine with WHSPR Assist Rx.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/10A-a-morning-with-whspr-assist-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/10A-a-morning-with-whspr-assist-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/10A-a-morning-with-whspr-assist-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/10A-a-morning-with-whspr-assist-nanobananapro-v137.png) | NanoBananaPro |
 
 ### 10B — The Clinic Journey
 
@@ -226,8 +226,8 @@ Lifestyle scene — audiologist clinic fitting experience.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/10B-the-clinic-journey-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/10B-the-clinic-journey-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/10B-the-clinic-journey-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/10B-the-clinic-journey-nanobananapro-v137.png) | NanoBananaPro |
 
 ---
 
@@ -239,8 +239,8 @@ Companion app icon for iOS and Android app stores.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/APP-ICON-app_icon-flux2pro-v1.png) | Flux2Pro |
-| v137 | ![](/whspr-assist/images/APP-ICON-app_icon-flux2pro-v137.png) | Flux2Pro |
+| v1 | ![](/images/APP-ICON-app_icon-flux2pro-v1.png) | Flux2Pro |
+| v137 | ![](/images/APP-ICON-app_icon-flux2pro-v137.png) | Flux2Pro |
 
 ### APP-SCREENSHOT — App Screenshot
 
@@ -248,8 +248,8 @@ Companion app screenshot mockup for app store listings.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/APP-SCREENSHOT-app_screenshot-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/APP-SCREENSHOT-app_screenshot-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/APP-SCREENSHOT-app_screenshot-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/APP-SCREENSHOT-app_screenshot-nanobananapro-v137.png) | NanoBananaPro |
 
 ### EMAIL-HERO — Email Hero Image
 
@@ -257,8 +257,8 @@ Hero banner image for email campaigns.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/EMAIL-HERO-email_hero-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/EMAIL-HERO-email_hero-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/EMAIL-HERO-email_hero-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/EMAIL-HERO-email_hero-nanobananapro-v137.png) | NanoBananaPro |
 
 ### IG-STORY — Instagram Story
 
@@ -266,8 +266,8 @@ Instagram Story format asset for social media campaigns.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/IG-STORY-ig_story-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/IG-STORY-ig_story-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/IG-STORY-ig_story-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/IG-STORY-ig_story-nanobananapro-v137.png) | NanoBananaPro |
 
 ### PITCH-HERO — Pitch Deck Hero
 
@@ -275,8 +275,8 @@ Hero image for investor pitch decks and presentations.
 
 | Variant | File | Model |
 |---------|------|-------|
-| v1 | ![](/whspr-assist/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png) | NanoBananaPro |
-| v137 | ![](/whspr-assist/images/PITCH-HERO-pitch_hero-nanobananapro-v137.png) | NanoBananaPro |
+| v1 | ![](/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png) | NanoBananaPro |
+| v137 | ![](/images/PITCH-HERO-pitch_hero-nanobananapro-v137.png) | NanoBananaPro |
 
 ---
 

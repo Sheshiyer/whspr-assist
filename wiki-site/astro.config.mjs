@@ -1,8 +1,7 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://sheshiyer.github.io',
-  base: '/whspr-assist',
+  site: 'https://whspr-assist.vercel.app',
   markdown: {
     shikiConfig: {
       theme: 'github-dark',

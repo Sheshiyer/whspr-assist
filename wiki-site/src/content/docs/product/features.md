@@ -11,7 +11,7 @@ order: 2
 
 WHSPR Assist Rx packs 13 distinct capabilities into a single frame. Each feature was chosen to address a specific barrier that keeps 80% of hearing-impaired Americans from seeking help.
 
-![Feature Icons — Hearing](/whspr-assist/images/5D-1-hearing-features-icons-flux2pro-v1.png)
+![Feature Icons — Hearing](/images/5D-1-hearing-features-icons-flux2pro-v1.png)
 
 ---
 
@@ -51,7 +51,7 @@ WHSPR Assist Rx packs 13 distinct capabilities into a single frame. Each feature
 
 **Competitive context:** Comparable camera-based vision assistants (OrCam $4,500, Envision $3,500) cost 10–13x more and offer no hearing enhancement.
 
-![Feature Icons — Vision](/whspr-assist/images/5D-2-vision-features-icons-flux2pro-v1.png)
+![Feature Icons — Vision](/images/5D-2-vision-features-icons-flux2pro-v1.png)
 
 ---
 
@@ -125,7 +125,7 @@ WHSPR Assist Rx packs 13 distinct capabilities into a single frame. Each feature
 
 **How it feels:** Trust — your healthcare professional is still part of this.
 
-![Feature Icons — Healthcare](/whspr-assist/images/5D-3-healthcare-integration-icons-flux2pro-v1.png)
+![Feature Icons — Healthcare](/images/5D-3-healthcare-integration-icons-flux2pro-v1.png)
 
 ---
 
