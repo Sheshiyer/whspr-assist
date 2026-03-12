@@ -647,3 +647,130 @@ body {
 
 .breadcrumbs { animation: fadeUp 0.35s ease both; }
 .doc-body { animation: fadeUp 0.4s ease 0.05s both; }
+
+/* ============================================================
+   Responsive — Tablet (769px–1024px)
+   ============================================================ */
+@media (max-width: 1024px) and (min-width: 769px) {
+  :root {
+    --sidebar-width: 220px;
+  }
+
+  .main-content { padding: 1.5rem 2rem 3rem; }
+  .site-footer { padding: 1.25rem 2rem; }
+
+  .landing-hero-title { font-size: 2.6rem; }
+  .landing-sections { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; }
+  .landing-card-body { padding: 0.85rem 1rem 1rem; }
+}
+
+/* ============================================================
+   Responsive — Mobile (≤768px)
+   ============================================================ */
+@media (max-width: 768px) {
+  /* --- Typography scale-down --- */
+  .landing-hero { padding: 1.5rem 0 1rem; }
+  .landing-hero-title { font-size: 2.2rem; }
+  .landing-hero-tagline { font-size: 1rem; }
+  .landing-hero-desc { font-size: 0.9rem; margin-bottom: 1.25rem; }
+  .landing-sections-title { font-size: 1.35rem; }
+  .landing-sections-subtitle { font-size: 0.85rem; }
+
+  /* --- Hero image --- */
+  .landing-hero-visual { margin: 0 auto 2rem; }
+  .landing-hero-image { border-radius: var(--radius-lg); }
+
+  /* --- CTA buttons: full-width stack --- */
+  .landing-hero-actions {
+    flex-direction: column; align-items: stretch;
+  }
+  .btn { justify-content: center; padding: 0.7rem 1rem; font-size: 0.9rem; }
+
+  /* --- Card grid: 1 column on phones --- */
+  .landing-sections {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .landing-card-image-wrap { aspect-ratio: 16 / 9; }
+  .landing-card-body { padding: 0.85rem 1rem 1rem; }
+
+  /* --- Doc body adjustments --- */
+  .doc-body h1 { font-size: 1.6rem; margin-top: 1.5rem; }
+  .doc-body h2 { font-size: 1.25rem; margin-top: 2rem; }
+  .doc-body h3 { font-size: 1.05rem; }
+  .doc-body p, .doc-body li { font-size: 0.9rem; }
+  .doc-body img { border-radius: var(--radius-md); margin: 1rem 0; }
+
+  /* --- Tables: horizontal scroll --- */
+  .doc-body table {
+    display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+  }
+  .doc-body th, .doc-body td { padding: 0.5rem 0.7rem; font-size: 0.82rem; }
+
+  /* --- Code blocks --- */
+  .doc-body pre { padding: 1rem; font-size: 0.8rem; border-radius: var(--radius-sm); }
+
+  /* --- Breadcrumbs: truncate long text --- */
+  .breadcrumbs ol { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .breadcrumbs li { white-space: nowrap; flex-shrink: 0; }
+
+  /* --- Doc nav: stack vertically --- */
+  .doc-nav { grid-template-columns: 1fr; gap: 0.75rem; margin-top: 2rem; padding-top: 1.5rem; }
+  .doc-nav-next { text-align: left; }
+
+  /* --- Sidebar mobile polish --- */
+  .sidebar {
+    width: 280px;
+    box-shadow: var(--glass-shadow-xl);
+  }
+  .sidebar.open { transform: translateX(0); }
+}
+
+/* ============================================================
+   Responsive — Small phones (≤400px)
+   ============================================================ */
+@media (max-width: 400px) {
+  .main-content { padding: 1rem 0.75rem 2rem; }
+  .site-footer { padding: 1rem 0.75rem; font-size: 0.72rem; }
+
+  .landing-hero-title { font-size: 1.85rem; }
+  .landing-hero-tagline { font-size: 0.9rem; }
+  .landing-badge { font-size: 0.65rem; padding: 0.2rem 0.6rem; }
+
+  .header-brand-name { font-size: 0.85rem; }
+
+  .doc-body h1 { font-size: 1.4rem; }
+  .doc-body h2 { font-size: 1.15rem; }
+
+  .doc-nav-link { padding: 0.85rem 1rem; }
+  .doc-nav-title { font-size: 0.82rem; }
+}
+
+/* ============================================================
+   Touch-device optimizations
+   ============================================================ */
+@media (hover: none) and (pointer: coarse) {
+  /* Larger tap targets */
+  .sidebar-link { padding: 0.5rem 0.65rem 0.5rem 1.6rem; min-height: 44px; display: flex; align-items: center; }
+  .sidebar-section-header { padding: 0.5rem 0.65rem; min-height: 40px; }
+  .sidebar-home-link { padding: 0.5rem; min-height: 44px; }
+  .breadcrumbs a, .breadcrumbs span { padding: 0.25rem 0; }
+  .toc-link { padding: 0.35rem 1rem; min-height: 36px; display: flex; align-items: center; }
+
+  /* Disable hover-only effects on touch */
+  .landing-card:hover { transform: none; }
+  .landing-card:hover .landing-card-image-wrap img { transform: none; }
+  .landing-card:active { transform: scale(0.98); }
+  .doc-nav-link:hover { transform: none; }
+  .doc-nav-link:active { transform: scale(0.98); }
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
