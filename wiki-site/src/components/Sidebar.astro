@@ -9,18 +9,16 @@ const { currentSlug = '' } = Astro.props;
 
 const allDocs = await getCollection('docs');
 
-// Define section order and metadata
-const sectionMeta: Record<string, { icon: string; order: number }> = {
-  Home:         { icon: '\u{1F3E0}', order: 0 },
-  Product:      { icon: '\u{1F4E6}', order: 1 },
-  Brand:        { icon: '\u{1F3A8}', order: 2 },
-  Audience:     { icon: '\u{1F465}', order: 3 },
-  Marketing:    { icon: '\u{1F4E3}', order: 4 },
-  Partners:     { icon: '\u{1F91D}', order: 5 },
-  deliverables: { icon: '\u{1F4E5}', order: 6 },
+const sectionMeta: Record<string, { order: number; color: string }> = {
+  Home:         { order: 0, color: 'var(--teal)' },
+  Product:      { order: 1, color: 'var(--navy)' },
+  Brand:        { order: 2, color: 'var(--gold)' },
+  Audience:     { order: 3, color: 'var(--teal)' },
+  Marketing:    { order: 4, color: '#E74C3C' },
+  Partners:     { order: 5, color: 'var(--navy)' },
+  deliverables: { order: 6, color: 'var(--charcoal)' },
 };
 
-// Group docs by section and sort
 const sections = new Map<string, typeof allDocs>();
 
 for (const doc of allDocs) {
@@ -31,19 +29,16 @@ for (const doc of allDocs) {
   sections.get(section)!.push(doc);
 }
 
-// Sort sections by their defined order, then sort items within each section
 const sortedSections = [...sections.entries()]
   .sort(([a], [b]) => (sectionMeta[a]?.order ?? 99) - (sectionMeta[b]?.order ?? 99))
   .map(([name, docs]) => ({
     name,
-    icon: sectionMeta[name]?.icon || '\u{1F4C4}',
+    color: sectionMeta[name]?.color || 'var(--text-muted)',
     items: docs.sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99)),
   }));
 
 function getDocHref(docId: string): string {
-  if (docId === 'index') {
-    return `/docs/`;
-  }
+  if (docId === 'index') return '/docs/';
   return `/docs/${docId}`;
 }
 
@@ -53,22 +48,33 @@ function isActive(docId: string, current: string): boolean {
   }
   return docId === current;
 }
+
+function displayName(name: string): string {
+  return name.charAt(0).toUpperCase() + name.slice(1);
+}
 ---
 
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
 <nav class="sidebar" id="sidebar">
+  <div class="sidebar-brand">
+    <a href="/" class="sidebar-home-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+      Home
+    </a>
+  </div>
   {sortedSections.map((section) => (
     <div class="sidebar-section">
-      <div class="sidebar-section-header">
-        <span class="sidebar-section-icon">{section.icon}</span>
-        <span>{section.name}</span>
-        <span class="sidebar-section-chevron">&#x25BC;</span>
-      </div>
+      <button class="sidebar-section-header" type="button" aria-expanded="true">
+        <span class="sidebar-dot" style={`background: ${section.color};`}></span>
+        <span>{displayName(section.name)}</span>
+        <svg class="sidebar-chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+      </button>
       <div class="sidebar-section-items">
         {section.items.map((doc) => (
           <a
             href={getDocHref(doc.id)}
             class:list={['sidebar-link', { active: isActive(doc.id, currentSlug) }]}
+            aria-current={isActive(doc.id, currentSlug) ? 'page' : undefined}
           >
             {doc.data.title}
           </a>
@@ -79,15 +85,14 @@ function isActive(docId: string, current: string): boolean {
 </nav>
 
 <script is:inline>
-  // Collapsible sections
   document.querySelectorAll('.sidebar-section-header').forEach(function(header) {
     header.addEventListener('click', function() {
       var section = this.parentElement;
-      section.classList.toggle('collapsed');
+      var isCollapsed = section.classList.toggle('collapsed');
+      this.setAttribute('aria-expanded', !isCollapsed);
     });
   });
 
-  // Mobile sidebar toggle
   var menuBtn = document.getElementById('mobileMenuBtn');
   var sidebar = document.getElementById('sidebar');
   var overlay = document.getElementById('sidebarOverlay');
@@ -95,6 +100,7 @@ function isActive(docId: string, current: string): boolean {
   function closeSidebar() {
     if (sidebar) sidebar.classList.remove('open');
     if (overlay) overlay.classList.remove('visible');
+    document.body.style.overflow = '';
   }
 
   if (menuBtn) {
@@ -105,6 +111,7 @@ function isActive(docId: string, current: string): boolean {
       } else {
         if (sidebar) sidebar.classList.add('open');
         if (overlay) overlay.classList.add('visible');
+        document.body.style.overflow = 'hidden';
       }
     });
   }

@@ -3,72 +3,97 @@ import DocsLayout from '../layouts/DocsLayout.astro';
 
 const sections = [
   {
-    icon: '\u{1F4E6}',
     title: 'Product',
-    desc: 'Overview, features, and technical specifications',
-    href: `/docs/product/overview`,
+    desc: 'Overview, features, and technical specifications for WHSPR Assist Rx.',
+    href: '/docs/product/overview',
+    image: '/images/4B-flatlay-flux2pro-v1.png',
   },
   {
-    icon: '\u{1F3A8}',
     title: 'Brand',
-    desc: 'Voice, visual identity, and asset gallery',
-    href: `/docs/brand/voice-and-tone`,
+    desc: 'Voice & tone guidelines, visual identity system, and asset gallery.',
+    href: '/docs/brand/voice-and-tone',
+    image: '/images/2A-brand-kit-bento-nanobananapro-v1.png',
   },
   {
-    icon: '\u{1F465}',
     title: 'Audience',
-    desc: 'Buyer personas, competitors, and market validation',
-    href: `/docs/audience/primary-persona`,
+    desc: 'Buyer personas, competitive landscape, and market validation data.',
+    href: '/docs/audience/primary-persona',
+    image: '/images/5B-campaign-grid-nanobananapro-v1.png',
   },
   {
-    icon: '\u{1F4E3}',
     title: 'Marketing',
-    desc: 'Campaign copy, emails, social content, video, and ads',
-    href: `/docs/marketing/campaign-copy`,
+    desc: 'Campaign copy, email sequences, social content, video scripts, and ads.',
+    href: '/docs/marketing/campaign-copy',
+    image: '/images/8A-seeker-poster-nanobananapro-v1.png',
   },
   {
-    icon: '\u{1F91D}',
     title: 'Partners',
-    desc: 'B2B whitelabel program and partnership details',
-    href: `/docs/partners/b2b-whitelabel`,
+    desc: 'B2B whitelabel program, partnership details, and integration guides.',
+    href: '/docs/partners/b2b-whitelabel',
+    image: '/images/4A-catalog-layout-nanobananapro-v1.png',
   },
   {
-    icon: '\u{1F680}',
     title: 'Quick Start',
-    desc: 'Get oriented fast with the rapid quickstart guide',
-    href: `/docs/quickstart`,
+    desc: 'Get oriented fast — everything you need to know in one place.',
+    href: '/docs/quickstart',
+    image: '/images/3B-hero-book-flux2pro-v1.png',
   },
 ];
 ---
 
 <DocsLayout title="WHSPR Assist Brand Wiki" description="Central hub for all brand documentation" currentSlug="__landing__">
-  <div class="landing-hero">
-    <h1 class="landing-hero-title">WHSPR Assist</h1>
+  <section class="landing-hero">
+    <span class="landing-badge">Brand Wiki</span>
+    <h1 class="landing-hero-title">WHSPR <span class="text-gradient">Assist</span></h1>
     <p class="landing-hero-tagline">Hear more. See more. Live more.</p>
     <p class="landing-hero-desc">
       The single source of truth for product information, brand guidelines,
       audience research, marketing assets, and partner documentation.
     </p>
+    <div class="landing-hero-actions">
+      <a href="/docs/quickstart" class="btn btn-primary">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+        Get Started
+      </a>
+      <a href="/docs/product/overview" class="btn btn-ghost">
+        Product Overview
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="landing-hero-visual">
+    <div class="landing-hero-image-glow"></div>
     <img
       class="landing-hero-image"
-      src={`/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png`}
+      src="/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png"
       alt="WHSPR Assist — Smart hearing and vision enhancement"
       loading="eager"
     />
-  </div>
+  </section>
 
-  <h2 style="text-align:center; margin-bottom: 0.5rem;">Explore the Wiki</h2>
-  <p style="text-align:center; color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">
-    Jump into any section to find what you need.
-  </p>
+  <section class="landing-sections-wrap">
+    <div class="landing-sections-header">
+      <h2 class="landing-sections-title">Explore the Wiki</h2>
+      <p class="landing-sections-subtitle">Jump into any section to find what you need.</p>
+    </div>
 
-  <div class="landing-sections">
-    {sections.map((s) => (
-      <a href={s.href} class="landing-section-card">
-        <span class="landing-section-card-icon">{s.icon}</span>
-        <div class="landing-section-card-title">{s.title}</div>
-        <div class="landing-section-card-desc">{s.desc}</div>
-      </a>
-    ))}
-  </div>
+    <div class="landing-sections">
+      {sections.map((s) => (
+        <a href={s.href} class="landing-card">
+          <div class="landing-card-image-wrap">
+            <img src={s.image} alt={s.title} loading="lazy" />
+          </div>
+          <div class="landing-card-body">
+            <h3 class="landing-card-title">{s.title}</h3>
+            <p class="landing-card-desc">{s.desc}</p>
+            <span class="landing-card-cta">
+              Explore
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+            </span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
 </DocsLayout>

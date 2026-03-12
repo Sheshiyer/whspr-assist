@@ -2,15 +2,30 @@
 import Header from '../components/Header.astro';
 import Sidebar from '../components/Sidebar.astro';
 import Footer from '../components/Footer.astro';
+import TableOfContents from '../components/TableOfContents.astro';
 import '../styles/global.css';
 
 interface Props {
   title: string;
   description?: string;
   currentSlug?: string;
+  headings?: { depth: number; slug: string; text: string }[];
+  section?: string;
 }
 
-const { title, description } = Astro.props;
+const { title, description, currentSlug, headings, section } = Astro.props;
+const isLanding = currentSlug === '__landing__';
+const showToc = !isLanding && headings && headings.filter(h => h.depth >= 2 && h.depth <= 3).length > 1;
+
+const breadcrumbs: { label: string; href?: string }[] = [];
+if (!isLanding && currentSlug) {
+  breadcrumbs.push({ label: 'Home', href: '/' });
+  const parts = currentSlug.split('/');
+  if (parts.length > 1 && section) {
+    breadcrumbs.push({ label: section, href: `/docs/${parts[0]}/${parts[1] || ''}` });
+  }
+  breadcrumbs.push({ label: title });
+}
 ---
 
 <!doctype html>
@@ -21,8 +36,14 @@ const { title, description } = Astro.props;
   <meta name="generator" content={Astro.generator} />
   <meta name="description" content={description || 'WHSPR Assist — Hear more. See more. Live more.'} />
   <meta name="theme-color" content="#1B365D" />
+  <meta property="og:title" content={`${title} — WHSPR Assist`} />
+  <meta property="og:description" content={description || 'WHSPR Assist — Hear more. See more. Live more.'} />
+  <meta property="og:type" content="website" />
   <title>{title} — WHSPR Assist</title>
-  <link rel="icon" type="image/svg+xml" href={`/favicon.svg`} />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <script is:inline>
     (function() {
       var t = localStorage.getItem('theme');
@@ -36,10 +57,32 @@ const { title, description } = Astro.props;
 </head>
 <body>
   <Header />
-  <Sidebar />
+  <Sidebar currentSlug={currentSlug || ''} />
 
   <main class="main-content">
-    <slot />
+    {breadcrumbs.length > 0 && (
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ol>
+          {breadcrumbs.map((b, i) => (
+            <li>
+              {b.href ? <a href={b.href}>{b.label}</a> : <span aria-current="page">{b.label}</span>}
+              {i < breadcrumbs.length - 1 && <span class="breadcrumb-sep">/</span>}
+            </li>
+          ))}
+        </ol>
+      </nav>
+    )}
+
+    <div class={showToc ? 'content-with-toc' : 'content-full'}>
+      <div class="content-main">
+        <slot />
+      </div>
+      {showToc && (
+        <aside class="toc-aside">
+          <TableOfContents headings={headings!} />
+        </aside>
+      )}
+    </div>
   </main>
 
   <Footer />

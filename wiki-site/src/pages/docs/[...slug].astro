@@ -11,12 +11,46 @@ export async function getStaticPaths() {
 }
 
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
+
+const allDocs = await getCollection('docs');
+const sameSectionDocs = allDocs
+  .filter((d) => d.data.section === entry.data.section)
+  .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+const idx = sameSectionDocs.findIndex((d) => d.id === entry.id);
+const prev = idx > 0 ? sameSectionDocs[idx - 1] : null;
+const next = idx < sameSectionDocs.length - 1 ? sameSectionDocs[idx + 1] : null;
+
+function docHref(id: string) {
+  return id === 'index' ? '/docs/' : `/docs/${id}`;
+}
 ---
 
 <DocsLayout
   title={entry.data.title}
   description={entry.data.description}
+  currentSlug={entry.id}
+  headings={headings}
+  section={entry.data.section}
 >
-  <Content />
+  <article class="doc-body">
+    <Content />
+  </article>
+
+  {(prev || next) && (
+    <nav class="doc-nav" aria-label="Page navigation">
+      {prev ? (
+        <a href={docHref(prev.id)} class="doc-nav-link doc-nav-prev">
+          <span class="doc-nav-label">Previous</span>
+          <span class="doc-nav-title">{prev.data.title}</span>
+        </a>
+      ) : <div />}
+      {next ? (
+        <a href={docHref(next.id)} class="doc-nav-link doc-nav-next">
+          <span class="doc-nav-label">Next</span>
+          <span class="doc-nav-title">{next.data.title}</span>
+        </a>
+      ) : <div />}
+    </nav>
+  )}
 </DocsLayout>
