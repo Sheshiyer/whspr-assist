@@ -4,6 +4,7 @@ import Sidebar from '../components/Sidebar.astro';
 import Footer from '../components/Footer.astro';
 import TableOfContents from '../components/TableOfContents.astro';
 import '../styles/global.css';
+import { getCollection } from 'astro:content';
 
 interface Props {
   title: string;
@@ -16,13 +17,22 @@ interface Props {
 const { title, description, currentSlug, headings, section } = Astro.props;
 const isLanding = currentSlug === '__landing__';
 const showToc = !isLanding && headings && headings.filter(h => h.depth >= 2 && h.depth <= 3).length > 1;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
+/* Breadcrumb: section link points to first page in section, not self */
 const breadcrumbs: { label: string; href?: string }[] = [];
 if (!isLanding && currentSlug) {
   breadcrumbs.push({ label: 'Home', href: '/' });
   const parts = currentSlug.split('/');
   if (parts.length > 1 && section) {
-    breadcrumbs.push({ label: section, href: `/docs/${parts[0]}/${parts[1] || ''}` });
+    const allDocs = await getCollection('docs');
+    const sectionFirst = allDocs
+      .filter(d => d.data.section === section)
+      .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99))[0];
+    const sectionHref = sectionFirst
+      ? (sectionFirst.id === 'index' ? '/docs/' : `/docs/${sectionFirst.id}`)
+      : `/docs/${parts[0]}/${parts[1] || ''}`;
+    breadcrumbs.push({ label: section, href: sectionHref });
   }
   breadcrumbs.push({ label: title });
 }
@@ -39,6 +49,8 @@ if (!isLanding && currentSlug) {
   <meta property="og:title" content={`${title} — WHSPR Assist`} />
   <meta property="og:description" content={description || 'WHSPR Assist — Hear more. See more. Live more.'} />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png" />
+  <link rel="canonical" href={canonicalURL.href} />
   <title>{title} — WHSPR Assist</title>
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -56,10 +68,13 @@ if (!isLanding && currentSlug) {
   </script>
 </head>
 <body>
+  <a href="#main-content" class="skip-to-content">Skip to content</a>
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+
   <Header />
   <Sidebar currentSlug={currentSlug || ''} />
 
-  <main class="main-content">
+  <main class="main-content" id="main-content">
     {breadcrumbs.length > 0 && (
       <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ol>
@@ -86,5 +101,74 @@ if (!isLanding && currentSlug) {
   </main>
 
   <Footer />
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Keyboard shortcut hint -->
+  <button class="kbd-hint-btn" id="kbd-hint-btn" aria-label="Keyboard shortcuts" title="Keyboard shortcuts">?</button>
+  <div class="kbd-popover" id="kbd-popover" role="dialog" aria-label="Keyboard shortcuts">
+    <div class="kbd-popover-title">Keyboard Shortcuts</div>
+    <div class="kbd-row"><span>Close lightbox</span> <kbd>Esc</kbd></div>
+    <div class="kbd-row"><span>Browse images</span> <kbd>←</kbd> <kbd>→</kbd></div>
+    <div class="kbd-row"><span>Toggle theme</span> <kbd>T</kbd></div>
+    <div class="kbd-row"><span>Back to top</span> <kbd>Home</kbd></div>
+  </div>
+
+  <script>
+    function initLayoutEnhancements() {
+      /* Reading progress bar */
+      const progressBar = document.getElementById('reading-progress');
+      if (progressBar) {
+        const updateProgress = () => {
+          const scrollTop = window.scrollY;
+          const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+          progressBar.style.width = docHeight > 0 ? `${(scrollTop / docHeight) * 100}%` : '0%';
+        };
+        window.addEventListener('scroll', updateProgress, { passive: true });
+        updateProgress();
+      }
+
+      /* Back to top button */
+      const btt = document.getElementById('back-to-top');
+      if (btt) {
+        const toggleBtt = () => btt.classList.toggle('visible', window.scrollY > 300);
+        window.addEventListener('scroll', toggleBtt, { passive: true });
+        toggleBtt();
+        btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+      }
+
+      /* Keyboard shortcut hint popover */
+      const kbdBtn = document.getElementById('kbd-hint-btn');
+      const kbdPop = document.getElementById('kbd-popover');
+      if (kbdBtn && kbdPop) {
+        kbdBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          kbdPop.classList.toggle('active');
+        });
+        document.addEventListener('click', () => kbdPop.classList.remove('active'));
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape') kbdPop.classList.remove('active');
+        });
+      }
+
+      /* Keyboard shortcut: T toggles theme (only when not in input/textarea) */
+      document.addEventListener('keydown', (e) => {
+        if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+        if (e.key === 't' || e.key === 'T') {
+          if (e.ctrlKey || e.metaKey || e.altKey) return;
+          const themeBtn = document.querySelector('.theme-toggle') as HTMLButtonElement;
+          if (themeBtn) themeBtn.click();
+        }
+        if (e.key === 'Home' && !e.ctrlKey && !e.metaKey) {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      });
+    }
+    document.addEventListener('astro:page-load', initLayoutEnhancements);
+    initLayoutEnhancements();
+  </script>
 </body>
 </html>

@@ -1,0 +1,36 @@
+---
+import '../styles/global.css';
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>404 — Page Not Found — WHSPR Assist</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <script is:inline>
+    (function() {
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.setAttribute('data-theme', t);
+      else if (window.matchMedia('(prefers-color-scheme: dark)').matches) document.documentElement.setAttribute('data-theme', 'dark');
+    })();
+  </script>
+</head>
+<body>
+  <div class="error-page">
+    <div class="error-card">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Page Not Found</h1>
+      <p class="error-description">The page you're looking for doesn't exist or has been moved. Let's get you back on track.</p>
+      <div class="error-actions">
+        <a href="/" class="error-link-primary">← Back to Home</a>
+        <a href="/docs/" class="error-link-secondary">Browse Documentation</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
