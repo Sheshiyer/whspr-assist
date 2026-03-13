@@ -13,9 +13,46 @@ const filtered = headings.filter((h) => h.depth >= 2 && h.depth <= 3);
     <ul class="toc-list">
       {filtered.map((h) => (
         <li class={`toc-item ${h.depth === 3 ? 'toc-indent' : ''}`}>
-          <a href={`#${h.slug}`} class="toc-link">{h.text}</a>
+          <a href={`#${h.slug}`} class="toc-link" data-toc-link>{h.text}</a>
         </li>
       ))}
     </ul>
   </nav>
 )}
+
+<script>
+  function initScrollSpy() {
+    const links = document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]');
+    if (!links.length) return;
+
+    const ids = Array.from(links).map(a => a.getAttribute('href')?.slice(1)).filter(Boolean) as string[];
+    const headings = ids.map(id => document.getElementById(id)).filter(Boolean) as HTMLElement[];
+    if (!headings.length) return;
+
+    let current = '';
+    const offset = 100;
+
+    function update() {
+      let found = '';
+      for (let i = headings.length - 1; i >= 0; i--) {
+        if (headings[i].getBoundingClientRect().top <= offset) {
+          found = headings[i].id;
+          break;
+        }
+      }
+      if (found !== current) {
+        current = found;
+        links.forEach(a => {
+          const href = a.getAttribute('href')?.slice(1);
+          a.classList.toggle('active', href === current);
+        });
+      }
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    update();
+  }
+
+  document.addEventListener('astro:page-load', initScrollSpy);
+  initScrollSpy();
+</script>

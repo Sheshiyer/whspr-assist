@@ -3,6 +3,29 @@ const year = new Date().getFullYear();
 ---
 
 <footer class="site-footer">
-  <span>WHSPR Assist Wiki &middot; Hear more. See more. Live more.</span>
-  <span>&copy; {year} WHSPR Assist &middot; Built with <a href="https://astro.build" target="_blank" rel="noopener noreferrer" style="color: inherit; text-decoration: underline; text-underline-offset: 2px;">Astro</a></span>
+  <div class="footer-inner">
+    <span class="footer-brand">WHSPR Assist Wiki</span>
+    <span class="footer-sep">&middot;</span>
+    <span class="footer-tagline">Hear more. See more. Live more.</span>
+    <span class="footer-sep">&middot;</span>
+    <span>&copy; {year} WHSPR Assist</span>
+    <span class="footer-sep">&middot;</span>
+    <span>Built with <a href="https://astro.build" target="_blank" rel="noopener noreferrer">Astro</a></span>
+  </div>
 </footer>
+
+<style>
+  .footer-inner {
+    display: flex; align-items: center; gap: 0.5rem;
+    flex-wrap: wrap; justify-content: center;
+  }
+  .footer-brand { font-weight: 600; }
+  .footer-tagline { font-style: italic; opacity: 0.7; }
+  .footer-sep { opacity: 0.3; }
+  .footer-inner a {
+    color: var(--gold); text-decoration: none;
+    text-underline-offset: 2px; font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .footer-inner a:hover { text-decoration: underline; }
+</style>

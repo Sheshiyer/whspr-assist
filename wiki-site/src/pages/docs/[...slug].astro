@@ -41,16 +41,69 @@ function docHref(id: string) {
     <nav class="doc-nav" aria-label="Page navigation">
       {prev ? (
         <a href={docHref(prev.id)} class="doc-nav-link doc-nav-prev">
-          <span class="doc-nav-label">Previous</span>
+          <span class="doc-nav-label">← Previous</span>
           <span class="doc-nav-title">{prev.data.title}</span>
         </a>
       ) : <div />}
       {next ? (
         <a href={docHref(next.id)} class="doc-nav-link doc-nav-next">
-          <span class="doc-nav-label">Next</span>
+          <span class="doc-nav-label">Next →</span>
           <span class="doc-nav-title">{next.data.title}</span>
         </a>
       ) : <div />}
     </nav>
   )}
+
+  <div class="lightbox-overlay" id="lightbox">
+    <img src="" alt="" />
+  </div>
 </DocsLayout>
+
+<script>
+  function initDocEnhancements() {
+    const docBody = document.querySelector('.doc-body');
+    if (!docBody) return;
+
+    // Lazy loading + fade-in for all markdown images
+    docBody.querySelectorAll('img').forEach(img => {
+      if (!img.hasAttribute('loading')) {
+        img.setAttribute('loading', 'lazy');
+        img.setAttribute('decoding', 'async');
+      }
+      if (img.complete) {
+        img.classList.add('loaded');
+      } else {
+        img.addEventListener('load', () => img.classList.add('loaded'), { once: true });
+      }
+    });
+
+    // Lightbox
+    const overlay = document.getElementById('lightbox');
+    if (!overlay) return;
+    const overlayImg = overlay.querySelector('img')!;
+
+    docBody.querySelectorAll('img').forEach(img => {
+      img.addEventListener('click', () => {
+        overlayImg.src = img.src;
+        overlayImg.alt = img.alt;
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      });
+    });
+
+    overlay.addEventListener('click', () => {
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && overlay.classList.contains('active')) {
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
+    });
+  }
+
+  document.addEventListener('astro:page-load', initDocEnhancements);
+  initDocEnhancements();
+</script>

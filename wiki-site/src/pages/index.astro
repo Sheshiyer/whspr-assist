@@ -43,7 +43,7 @@ const sections = [
 
 <DocsLayout title="WHSPR Assist Brand Wiki" description="Central hub for all brand documentation" currentSlug="__landing__">
   <section class="landing-hero">
-    <span class="landing-badge">Brand Wiki</span>
+    <span class="landing-badge">Brand Wiki &middot; v2.0</span>
     <h1 class="landing-hero-title">WHSPR <span class="text-gradient">Assist</span></h1>
     <p class="landing-hero-tagline">Hear more. See more. Live more.</p>
     <p class="landing-hero-desc">
@@ -69,20 +69,21 @@ const sections = [
       src="/images/PITCH-HERO-pitch_hero-nanobananapro-v1.png"
       alt="WHSPR Assist — Smart hearing and vision enhancement"
       loading="eager"
+      decoding="async"
     />
   </section>
 
   <section class="landing-sections-wrap">
     <div class="landing-sections-header">
       <h2 class="landing-sections-title">Explore the Wiki</h2>
-      <p class="landing-sections-subtitle">Jump into any section to find what you need.</p>
+      <p class="landing-sections-subtitle">Dive into each section — everything is organized for quick discovery.</p>
     </div>
 
     <div class="landing-sections">
       {sections.map((s) => (
         <a href={s.href} class="landing-card">
           <div class="landing-card-image-wrap">
-            <img src={s.image} alt={s.title} loading="lazy" />
+            <img src={s.image} alt={s.title} loading="lazy" decoding="async" />
           </div>
           <div class="landing-card-body">
             <h3 class="landing-card-title">{s.title}</h3>
